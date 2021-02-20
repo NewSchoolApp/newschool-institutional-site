@@ -21,9 +21,7 @@ export default function HOME() {
 
   const file = routes.map((route) => (
     <h1
-      style={{
-        color: `${COLORS.primary}`, padding: 10, border: `1px solid ${COLORS.primary}`, minWidth: 300, textAlign: 'center'
-      }}
+      className={styles.title}
       onClick={() => goTo(route.path)}
     >
       {route.name}
