@@ -2,6 +2,7 @@ import Head from "next/head";
 import { COLORS } from "../styles/colors";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
+import Loading from "../components/loading/loading";
 
 export default function HOME() {
   const router = useRouter();
@@ -28,5 +29,8 @@ export default function HOME() {
     </h1>
   ));
 
-  return <div className={styles.container}>{file}</div>;
+  return <>
+  <Loading />
+  <div className={styles.container}>{file}</div>
+  </>
 }

@@ -1,30 +1,30 @@
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 3%;
   grid-gap: 0.5rem;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .title {
   color: #fff;
   background: #6600cc;
   padding: 10px;
-  margin-top: 10px;
   border: 1px solid #6600cc;
   width: 20%;
-  font-size: 3rem !important;
+  font-size: 2rem !important;
   text-align: center;
   cursor: pointer;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .title:hover {
   background: #fff;
   color: #6600cc;
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .footer {
@@ -129,5 +129,223 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+.container_page {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calda {
+  position: relative;
+  background-color: #6600cc;
+  width: 298px;
+  height: 407px;
+  border-radius: 100%;
+  animation: Home_loading__2A0vF 3s linear 2s infinite alternate;
+}
+
+.body {
+  position: relative;
+  justify-content: center;
+  top: 116px;
+  left: 55px;
+  bottom: 180px;
+  background-color: white;
+  width: 190px;
+  height: 300px;
+  border-radius: 100% 100% 100% 100%;
+  animation: dance 0.3s linear infinite alternate;
+}
+
+.white_container {
+  right: 193px;
+  position: absolute;
+  top: -260px;
+  bottom: 110px;
+  background-color: white;
+  width: 168px;
+  transform: rotate(39deg);
+  height: 244px;
+  border-radius: 100% 100% 100% 100%;
+}
+
+.transparent_container {
+  right: 230px;
+  position: absolute;
+  top: -105px;
+  bottom: 103px;
+  background-color: white;
+  width: 134px;
+  transform: rotate(24deg);
+  height: 292px;
+}
+
+.aux {
+  right: 181px;
+  position: absolute;
+  top: -82px;
+  bottom: 110px;
+  background-color: #6600cc;
+  width: 96px;
+  transform: rotate(-148deg);
+  height: 249px;
+  border-radius: 22% 217% 1% 192%;
+  animation: loading 3s linear 2s infinite alternate;
+}
+
+.aux2 {
+  right: 182px;
+  position: absolute;
+  top: -82px;
+  bottom: 110px;
+  background-color: #6600cc;
+  width: 96px;
+  transform: rotate(-148deg);
+  height: 235px;
+  border-radius: 26% 217% 1% 192%;
+  animation: loading 3s linear 2s infinite alternate;
+}
+
+.eye1,
+.eye2 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #6600cc;
+  top: 60px;
+  border-radius: 100% 30% 100% 18%;
+  transform: rotate(-51deg);
+  left: 65px;
+  animation: loading 3s linear 2s infinite alternate;
+}
+
+.eye2 {
+  left: 120px;
+}
+
+.cel {
+  position: absolute;
+  left: 65px;
+  top: 110px;
+  width: 80px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: #6600cc;
+  animation: loading 3s linear 2s infinite alternate;
+}
+
+.hand1,
+.hand2 {
+  position: absolute;
+  left: 30px;
+  top: 137px;
+  width: 55px;
+  height: 65px;
+  border-radius: 0% 100% 26% 100%;
+  background-color: white;
+  transform: rotate(315deg);
+  overflow: hidden;
+}
+
+.hand2 {
+  border-radius: 0% 100% 26% 100%;
+  left: 120px;
+  transform: rotate(125deg);
+}
+
+.orelha1,
+.orelha2 {
+  position: absolute;
+  left: 20px;
+  top: -30px;
+  width: 45px;
+  height: 75px;
+  background-color: white;
+  border-radius: 100% 0% 100% 0%;
+  transform: rotate(150deg);
+  overflow: hidden;
+}
+
+.orelha2 {
+  left: 120px;
+}
+
+.details1,
+.details2 {
+  background-color: lightgray;
+  width: 4px;
+  top: 90px;
+  position: absolute;
+  left: 47px;
+  height: 42px;
+  transform: rotate(136deg);
+}
+
+.details2 {
+  left: 158px;
+  transform: rotate(216deg);
+}
+
+.headphone {
+  position: absolute;
+  top: -18px;
+  width: 157px;
+  left: 14px;
+  height: 130px;
+  border-top: 9px solid white;
+  transform: rotate(-3deg);
+  border-radius: 62%;
+}
+
+.headphone_detail1,
+.headphone_detail2 {
+  position: absolute;
+  top: 17px;
+  left: 5px;
+  width: 20px;
+  height: 60px;
+  border-radius: 50px;
+  background: white;
+  transform: rotate(13deg);
+}
+
+.headphone_detail2 {
+  left: 165px;
+  transform: rotate(-17deg);
+}
+
+@keyframes loading {
+  0% {
+    background-color: #6600cc;
+  }
+  20% {
+    background-color: #550783;
+  }
+  40% {
+    background-color: #7234e4;
+  }
+  60% {
+    background-color: #6334e4;
+  }
+  80% {
+    background-color: #400568;
+  }
+  100% {
+    background-color: #2d0758;
+  }
+}
+
+@keyframes dance {
+  from {
+    top: 137px;
+  }
+
+  to {
+    top: 132px;
   }
 }
