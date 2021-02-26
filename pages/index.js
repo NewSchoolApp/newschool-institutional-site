@@ -20,8 +20,9 @@ export default function HOME() {
     { name: "CONHEÇA O APP", path: "/conheca-o-app" },
   ];
 
-  const file = routes.map((route) => (
+  const file = routes.map((route, key) => (
     <h1
+      key={key}
       className={styles.title}
       onClick={() => goTo(route.path)}
     >
