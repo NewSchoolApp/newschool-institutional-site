@@ -5,8 +5,9 @@ import ReactPlayer from "react-player";
 export default function MenuComponent(_) {
   return (
     <Container>
-        <ReactPlayer width="100%" height="100vh" url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
-
+        <Video autoPlay muted loop>
+          <source  src="video-home.mp4"/>
+        </Video>
     </Container>
   );
 }

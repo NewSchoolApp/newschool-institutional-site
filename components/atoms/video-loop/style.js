@@ -6,7 +6,8 @@ export const Container = styled.div`
 `;
 
 export const Video = styled.video`
-  
+  width: 100vw;
+  height: 100vh;
 `;
 
 export const VideoSource = styled.source`
