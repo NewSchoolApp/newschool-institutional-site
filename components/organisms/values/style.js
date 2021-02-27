@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
-import BackgroundFavela from '../../../assets/images/favela.png'
 
 export const Container = styled.div`
   display: flex;
@@ -9,7 +8,7 @@ export const Container = styled.div`
   grid-gap: 5%;
   width: 100%;
   height: 100vh;
-  background-image: url("https://observatoriodeseries.uol.com.br/wp-content/uploads/2020/05/Novo-Projeto-65.jpg");
+  background-image: url('./favela.png');
   background-size: cover;
   background-repeat: no-repeat;
 `;

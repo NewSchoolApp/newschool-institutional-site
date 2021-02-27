@@ -7,7 +7,6 @@ import {
   Message,
   VideoBordered,
 } from "./style";
-import homeVideo from "../../../assets/videos/video-home.mp4";
 import ReactPlayer from "react-player";
 
 export default function MenuComponent(_) {

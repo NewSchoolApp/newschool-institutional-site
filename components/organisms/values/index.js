@@ -7,7 +7,6 @@ import {
   Message,
   VideoBordered,
 } from "./style";
-import homeVideo from "../../../assets/videos/video-home.mp4";
 import ReactPlayer from "react-player";
 import HomeCard from "../../atoms/home-card";
 
@@ -39,6 +38,6 @@ export default function MenuComponent(_) {
     },
   ];
 
-  const cards = values.map((item) => <HomeCard {...item} />);
+  const cards = values.map((item, i) => <HomeCard {...item} key={i} />);
   return <Container>{cards}</Container>;
 }

@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
-import BackgroundFavela from '../../../assets/images/favela.png'
 
 export const Container = styled.div`
   display: flex;
