@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   background-image: url('./favela.png');
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 `;
 
