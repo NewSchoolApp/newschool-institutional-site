@@ -23,7 +23,7 @@ export const Section = styled.div`
 
 export const Politics = styled.div`
   display: flex;
-  grid-gap: 5%;
+  grid-gap: 2%;
   width: 80%;
 `;
 
@@ -43,7 +43,7 @@ export const SocialMedias = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 20%;
+  width: 15%;
 `;
 
 export const Logo = styled.div`

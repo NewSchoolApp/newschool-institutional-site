@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Flex = styled.div`
-  width: 100%;
+  width: 75%;
   padding: 5%;
   display: flex;
   justify-content: space-around;
@@ -29,6 +29,14 @@ export const Image = styled.img`
   position: relative;
   width: 487px;
   height: 487px;
+  filter: grayscale(100%);
+  transition: .2s ease-out;
+
+
+  &:hover {
+    transition: .2s ease-in;
+    filter: none;
+  }
 `;
 
 export const Icon = styled.img`
@@ -46,7 +54,7 @@ export const Background = styled.img`
 `;
 
 export const Description = styled.div`
-  width: 25%;
+  width: 40%;
   height: 50%;
   display: flex;
   flex-direction: column;
@@ -82,12 +90,12 @@ export const Button = styled.button`
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  transition: background-color 0.1s ease-out;
+  transition: background-color 0.2s ease-out;
 
   &:hover {
     background-color: ${COLORS.primary};
     color: ${COLORS.white};
     cursor: pointer;
-    transition: background-color 0.1s ease-in;
+    transition: background-color 0.2s ease-in;
   }
 `;

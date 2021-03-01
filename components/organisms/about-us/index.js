@@ -39,7 +39,7 @@ export default function AboutUs() {
           <Button>Saiba mais</Button>
         </Description>
         <Card>
-          <Image style={{ marginLeft: "45%" }}  src="gray/pack2.png" />
+          <Image style={{ marginLeft: "10%" }}  src="gray/pack2.png" />
         </Card>
       </Flex>
 

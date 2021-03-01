@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Section, Title, Text, Message, Video, Button } from "./style";
+import VideoThumbnail from 'react-video-thumbnail'; // use npm published version
 
 import Image from "next/image";
 export default function MenuComponent(_) {
@@ -28,9 +29,6 @@ export default function MenuComponent(_) {
         <Video controls id="video">
           <source src="video-movimento-home.mp4" />
         </Video>
-        {/* <Button >
-          <Image width="103" height="101" src="/play.png" />
-        </Button> */}
       </Section>
     </Container>
   );

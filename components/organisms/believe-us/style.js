@@ -3,7 +3,7 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background-color: ${COLORS.light_gray};
   display: flex;
   flex-direction: column;
@@ -22,8 +22,8 @@ export const Partners = styled.div`
   flex-wrap: wrap;
 `;
 export const Image = styled.img`
-  height: 80px ;
-  margin-bottom: 5%;
+  height: 65px ;
+  margin-bottom: 4%;
 `;
 
 export const Title = styled.h1`

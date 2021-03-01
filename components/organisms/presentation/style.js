@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Section = styled.div`
-  margin: 0 2%;
+  margin: 0 4%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -32,13 +32,14 @@ export const Title = styled.h2`
   color: ${COLORS.primary};
   font-weight: 800;
   font-size: 47px;
-  margin-bottom: 0;
+  margin-bottom: 48px;
   margin-top: 0;
 `;
 
 export const Text = styled.p`
   font-weight: 400;
   font-size: 18px;
+  line-height: 27px;
 `;
 
 export const Message = styled.p`
@@ -48,7 +49,7 @@ export const Message = styled.p`
 `;
 
 export const Video = styled.video`
-  width: 70ch;
+  width: 75ch;
   position: relative;
   outline: none;
   border-radius: 10px;
