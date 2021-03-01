@@ -6,8 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 0 5%;
-  height: 70vh;
+  margin: 0 5% 15%;
+  height: 60vh;
+  position: relative;
 `;
 
 export const Section = styled.div`
@@ -44,4 +45,22 @@ export const Message = styled.p`
   color: ${COLORS.primary};
   font-weight: 500;
   font-size: 18px;
+`;
+
+export const Video = styled.video`
+  width: 70ch;
+  position: relative;
+  outline: none;
+  border-radius: 10px;
+`;
+
+export const Button = styled.button`
+  color: red;
+  position: relative;
+  bottom: 34%;
+  left: 43%;
+  width: 100px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 `;

@@ -20,6 +20,7 @@ export const Container = styled.div`
 
 export const Flex = styled.div`
   display: flex;
+  cursor: pointer;
 `;
 
 

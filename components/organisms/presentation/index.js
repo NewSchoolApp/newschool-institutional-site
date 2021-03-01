@@ -1,15 +1,9 @@
 import React from "react";
-import {
-  Container,
-  Section,
-  Title,
-  Text,
-  Message,
-  VideoBordered,
-} from "./style";
-import ReactPlayer from "react-player";
+import { Container, Section, Title, Text, Message, Video, Button } from "./style";
 
+import Image from "next/image";
 export default function MenuComponent(_) {
+
   const message = "Assista o vídeo ao lado para entender mais. >";
   return (
     <Container>
@@ -31,13 +25,12 @@ export default function MenuComponent(_) {
         <Message>{message}</Message>
       </Section>
       <Section>
-        <ReactPlayer
-          style={{
-            borderRadius: 10,
-            overflow: "hidden",
-          }}
-          url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-        />
+        <Video controls id="video">
+          <source src="video-movimento-home.mp4" />
+        </Video>
+        {/* <Button >
+          <Image width="103" height="101" src="/play.png" />
+        </Button> */}
       </Section>
     </Container>
   );

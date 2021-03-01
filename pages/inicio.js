@@ -5,13 +5,14 @@ import Header from '../components/organisms/header'
 import VideoLoop from '../components/atoms/video-loop'
 import Presentation from '../components/organisms/presentation'
 import Values from '../components/organisms/values'
+import NewSchoolGrafit from '../components/atoms/newschool-grafit'
 
 export default function Home() {
   return (
     <>
     <VideoLoop />
     <Presentation />
-    {/* <NewSchoolGrafit /> */}
+    <NewSchoolGrafit />
     <Values />
     </>
   )
