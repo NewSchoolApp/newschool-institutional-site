@@ -6,6 +6,8 @@ import VideoLoop from '../components/atoms/video-loop'
 import Presentation from '../components/organisms/presentation'
 import Values from '../components/organisms/values'
 import NewSchoolGrafit from '../components/atoms/newschool-grafit'
+import BelieveUs from '../components/organisms/believe-us'
+import Footer from '../components/organisms/footer'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
     <Presentation />
     <NewSchoolGrafit />
     <Values />
+    <BelieveUs />
+    <Footer />
     </>
   )
 }
