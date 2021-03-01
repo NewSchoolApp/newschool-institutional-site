@@ -29,7 +29,7 @@ export default function PartnersComponent() {
         </Section>
         <Section>
           <Logo>
-            <Image src="newschool-logo.png" />
+            <Image src="newschool-logo.svg" />
           </Logo>
           <Copyright>
             <Text>Todos os direitos reservados. New School 2021.</Text>

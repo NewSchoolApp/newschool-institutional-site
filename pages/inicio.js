@@ -7,6 +7,7 @@ import Presentation from '../components/organisms/presentation'
 import Values from '../components/organisms/values'
 import NewSchoolGrafit from '../components/atoms/newschool-grafit'
 import BelieveUs from '../components/organisms/believe-us'
+import AboutUs from '../components/organisms/about-us'
 import Footer from '../components/organisms/footer'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <NewSchoolGrafit />
     <Values />
     <BelieveUs />
+    <AboutUs />
     <Footer />
     </>
   )
