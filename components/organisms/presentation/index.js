@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Section, Title, Text, Message, Video, Button } from "./style";
-import VideoThumbnail from 'react-video-thumbnail'; // use npm published version
 
 import Image from "next/image";
 export default function MenuComponent(_) {

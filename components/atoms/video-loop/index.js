@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Video, VideoSource } from "./style";
-import ReactPlayer from "react-player";
 
 export default function MenuComponent(_) {
   return (

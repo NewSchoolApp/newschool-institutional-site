@@ -18,8 +18,5 @@
     "react-player": "^2.9.0",
     "styled-components": "^5.2.1",
     "url-loader": "^4.1.1"
-  },
-  "devDependencies": {
-    "react-video-thumbnail": "^0.1.3"
   }
 }
