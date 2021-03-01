@@ -13,7 +13,7 @@ export const Container = styled.div`
 `;
 
 export const Partners = styled.div`
-  width: 90%;
+  width: 80%;
   margin: 2%;
   display: flex;
   justify-content: center;
@@ -22,7 +22,7 @@ export const Partners = styled.div`
   flex-wrap: wrap;
 `;
 export const Image = styled.img`
-  height: 65px ;
+  height: 60px ;
   margin-bottom: 4%;
 `;
 

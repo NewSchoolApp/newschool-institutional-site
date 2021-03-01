@@ -14,7 +14,7 @@ export const Flex = styled.div`
   width: 75%;
   padding: 5%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   grid-gap: 2%;
 `;
