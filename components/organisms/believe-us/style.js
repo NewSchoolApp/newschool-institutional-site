@@ -14,6 +14,7 @@ export const Container = styled.div`
 
 export const Partners = styled.div`
   width: 80%;
+  max-width: 1400px;
   margin: 2%;
   display: flex;
   justify-content: center;
@@ -22,8 +23,17 @@ export const Partners = styled.div`
   flex-wrap: wrap;
 `;
 export const Image = styled.img`
-  height: 60px ;
+  height: 60px;
   margin-bottom: 4%;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: 0.2s ease-out;
+
+  &:hover {
+    filter: none;
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
 `;
 
 export const Title = styled.h1`

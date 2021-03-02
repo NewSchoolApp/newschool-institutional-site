@@ -12,6 +12,7 @@ export const Container = styled.div`
 
 export const Flex = styled.div`
   width: 75%;
+  max-width: 1400px;
   padding: 5%;
   display: flex;
   justify-content: space-between;
