@@ -9,7 +9,7 @@ export default function HeaderComponent(_) {
     <Header>
       <Container>
         <Flex>
-          <Link href="/">
+          <Link href="/inicio">
             <Image width="155" height="77" src="/newschool-logo.svg" />
           </Link>
         </Flex>

@@ -6,14 +6,15 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 0 5% 15%;
-  height: 60vh;
+  margin: 0 auto 15%;
+  height: 70vh;
   position: relative;
+  max-width: 1400px;
 `;
 
 export const Section = styled.div`
-  margin: 0 4%;
-  height: 100%;
+  margin: 0 1%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
