@@ -9,7 +9,6 @@ import Values from "../components/organisms/values";
 import NewSchoolGrafit from "../components/atoms/newschool-grafit";
 import BelieveUs from "../components/organisms/believe-us";
 import AboutUs from "../components/organisms/about-us";
-import Footer from "../components/organisms/footer";
 import GoTop from "../components/atoms/go-top";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
       <a href="#top">
         <GoTop />
       </a>
-      <Footer />
     </>
   );
 }

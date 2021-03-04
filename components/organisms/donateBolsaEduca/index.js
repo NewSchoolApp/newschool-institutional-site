@@ -10,7 +10,8 @@ import {
   Button,
   Row,
   Icon,
-  TextRight
+  TextRight,
+  TextTitle
 } from "./style";
 import PackImage from "../../atoms/pack-image/";
 
@@ -19,7 +20,7 @@ export default function DonateBolsaEduca(){
         <Container>
             <Flex>
                 <Description>
-                    <Text>Apoie o desenvolvimento de um jovem Bolsa Educa+</Text>
+                    <TextTitle>Apoie o desenvolvimento de um jovem Bolsa Educa+</TextTitle>
                     <Title>Bolsa Educa+</Title>
                     <Text>
                     Por apenas 29,90 por mês, você apoia um jovem a ter acesso a atividades 

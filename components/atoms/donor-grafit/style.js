@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Image = styled.img`
-    width: 98.8vw;
+    width: 90%;
+    margin: -7.5% 5% 0%;
     overflow: hidden;
     position: absolute;
-    margin-top: -10%;
 `;
 
 export const Container = styled.div``;

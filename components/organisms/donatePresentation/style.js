@@ -3,21 +3,23 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
   margin: 0 auto 15%;
-  height: 70vh;
+  height: 40vh;
   position: relative;
   max-width: 1400px;
 `;
 
 export const Section = styled.div`
-  margin: 0 1%;
-  height: 90%;
+  margin: auto 10% 0;
+  height: 171px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 `;
 
 export const Text = styled.p`

@@ -11,9 +11,9 @@ export const Container = styled.div`
 `;
 
 export const Flex = styled.div`
-  width: 75%;
+  width: 100%;
   max-width: 1400px;
-  padding: 5%;
+  padding: 3%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -72,6 +72,7 @@ export const Title = styled.h1`
   color: ${COLORS.primary};
 
   margin-bottom: 5%;
+  margin-top: -4%;
 `;
 
 export const Text = styled.p`
@@ -79,6 +80,12 @@ export const Text = styled.p`
   line-height: 27px;
   color: #3f3d56;
   margin-bottom: 5%;
+`;
+
+export const TextTitle = styled.p`
+  font-size: 18px;
+  line-height: 27px;
+  color: #3f3d56;
 `;
 
 export const Button = styled.button`
@@ -104,11 +111,10 @@ export const Button = styled.button`
 
 export const Row = styled.div`
   display: flex;
-  direction: flex-row;
   position: relative;
-  align-itens: center;
-  justify-itens: center;
-  padding: 5%;
+  align-items: center;
+  justify-items: center;
+  padding: 1% 3%;
   
   
 `;
