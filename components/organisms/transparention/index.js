@@ -10,6 +10,7 @@ import {
   Column,
   ImageAbsolute,
   ImageContainer,
+  Description,
 } from "./style";
 import Menu from "../../atoms/menu";
 
@@ -17,12 +18,19 @@ export default function Transparention(_) {
   return (
     <Container>
       <Column>
-        <Title>Revolucionando o acesso à educação</Title>
+        <Description>Acompanhe nosso impacto na quebrada</Description>
+        <Title>Transparência</Title>
         <Text>
-          Quer fortalecer a causa e proporcionar um futuro  melhor para um jovem
-          da periferia? Doe educação!
+          Nossos esquilos roxos trabalharam duro para revolucionar a educação e
+          impactar a vida de centenas de jovens e suas famílias. Para isso,
+          temos ao nosso lado diversos apoiadores que chegam junto e fecham com
+          a gente.
         </Text>
-        <Button>SEJA UM DOADOR</Button>
+        <Text>
+          Você pode acompanhar nosso impacto através do relatório, disponível
+          para consulta.
+        </Text>
+        <Button>Baixar o relatório</Button>
       </Column>
       <ImageContainer>
         <Image src="/pack-doar1.png" />

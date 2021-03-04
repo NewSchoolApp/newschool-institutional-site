@@ -6,7 +6,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
+  padding: 0 5%;
   background-color: ${COLORS.primary};
 `;
 
@@ -32,48 +33,54 @@ export const ImageAbsolute = styled.img`
 `;
 
 export const ImageContainer = styled.div`
-position: relative;
-`
+  position: relative;
+`;
 
 export const Title = styled.h1`
   font-weight: bold;
-  font-size: 29px;
   line-height: 40px;
   color: ${COLORS.white};
-  margin: 15% 0 0;
+  margin: 0 0 5% 0;
   width: 50%;
+  font-size: 47px;
+  line-height: 70px;
 `;
 
 export const Text = styled.p`
   font-size: 18px;
   line-height: 27px;
   color: ${COLORS.white};
-  width: 80%;
+  width: 75%;
+  margin-bottom: 3%;
 `;
 
-export const Button = styled.button`
-  width: 175px;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  border: 1.25px solid #ffffff;
-  border-radius: 6px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
+export const Description = styled.p`
+  font-size: 16px;
+  line-height: 24px;
   color: ${COLORS.white};
-  background-color: transparent;
-  outline: none;
-  transition: 0.2s ease-out;
-  margin-top: 1.5%;
+  width: 80%;
+  margin-bottom: 0;
+`;
+
+export const Button = styled.p`
+  color: ${COLORS.white};
+  font-size: 18px;
+  line-height: 27px;
+  color: ${COLORS.white};
+  text-decoration: underline;
+  margin-top: 3.5%;
+  transition: 0.2s filter;
+  cursor: pointer;
 
   &:hover {
-    background-color: ${COLORS.white};
-    color: ${COLORS.primary};
-    transition: 0.2s ease-in;
-    cursor: pointer;
+    filter: brightness(80%);
+    transition: 0.2s filter;
   }
 `;
 
 export const Section = styled.div``;
 
-export const Column = styled.div``;
+export const Column = styled.div`
+  width: 40%;
+  height: 70%;
+`;
