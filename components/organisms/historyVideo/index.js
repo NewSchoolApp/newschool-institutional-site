@@ -20,7 +20,6 @@ export default function HistoryVideo() {
           </Text>
           <br />
           <br />
-          <br />
         </Description>
 
         <Video controls id="video">

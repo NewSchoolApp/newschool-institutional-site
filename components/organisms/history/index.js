@@ -47,11 +47,6 @@ export default function History(){
                     vêem no crime organizado o único caminho possível para quem 
                     é de quebrada e não tem acesso às mesmas oportunidades dos 
                     jovens que pertencem à outra realidade socioeconômica.
-
-
-
-
-                
                 </TextBottom>
             </Row>
            
