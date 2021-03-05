@@ -1,11 +1,16 @@
-import Head from 'next/head'
-import { COLORS } from '../styles/colors'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import OurHistory from "../components/atoms/our-history";
+import OurHistoryBackground from "../components/atoms/our-hisotry-background";
+import History from "../components/organisms/history";
+import HistoryVideo from "../components/organisms/historyVideo";
 
 export default function AboutUs() {
   return (
-    <div className={styles.container}>
-      <h1 style={{color: `${COLORS.primary}`}}> HISTORIA </h1>
-    </div>
-  )
+    <>
+      <History />
+      <OurHistory />
+      <OurHistoryBackground />
+      <HistoryVideo />
+    </>
+  );
 }

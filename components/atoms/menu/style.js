@@ -20,7 +20,7 @@ export const ListItem = styled.li`
     height: 3px;
     display: block;
     margin-top: 5px;
-    right: 0;
+    right: 15px;
     background: #fff;
     transition: width 0.5s ease;
   }

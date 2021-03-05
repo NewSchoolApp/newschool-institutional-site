@@ -1,36 +1,28 @@
 import Head from "next/head";
+import React from "react";
 import { COLORS } from "../styles/colors";
 import styles from "../styles/Home.module.css";
-import { useRouter } from "next/router";
-import Loading from "../components/organisms/loading";
+import Header from "../components/organisms/header";
+import VideoLoop from "../components/atoms/video-loop";
+import Presentation from "../components/organisms/presentation";
+import Values from "../components/organisms/values";
+import NewSchoolGrafit from "../components/atoms/newschool-grafit";
+import BelieveUs from "../components/organisms/believe-us";
+import AboutUs from "../components/organisms/about-us";
+import GoTop from "../components/atoms/go-top";
 
-export default function HOME() {
-  const router = useRouter();
-
-  const goTo = (route) => {
-    router.push(route);
-  };
-
-  const routes = [
-    { name: "INÍCIO", path: "/inicio" },
-    { name: "HISTORIA", path: "/historia" },
-    { name: "FAÇA PARTE", path: "/faca-parte" },
-    { name: "DOAR", path: "/doar" },
-    { name: "NEW SCHOOL", path: "/newschool" },
-    { name: "CONHEÇA O APP", path: "/conheca-o-app" },
-  ];
-
-  const file = routes.map((route) => (
-    <h1
-      className={styles.title}
-      onClick={() => goTo(route.path)}
-    >
-      {route.name}
-    </h1>
-  ));
-
-  return <>
-  <Loading />
-  <div className={styles.container}>{file}</div>
-  </>
+export default function Home() {
+  return (
+    <>
+      <VideoLoop id="top" />
+      <Presentation />
+      <NewSchoolGrafit />
+      <Values />
+      <BelieveUs />
+      <AboutUs />
+      <a href="#top">
+        <GoTop />
+      </a>
+    </>
+  );
 }
