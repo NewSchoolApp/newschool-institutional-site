@@ -71,6 +71,6 @@ export const Strong = styled.strong`
 
 export const StrongBottom = styled.p`
   color: ${COLORS.primary};
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
 `;
