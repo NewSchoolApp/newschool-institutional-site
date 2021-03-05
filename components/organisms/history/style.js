@@ -8,9 +8,6 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2%;
-  
-  
-  border:solid;
 `;
 
 export const Flex = styled.div`
@@ -21,10 +18,6 @@ export const Flex = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   grid-gap: 2%;
-  
-
-  border: solid;
-  border-color: red;
 `;
 
 export const Image = styled.img`
@@ -66,11 +59,6 @@ export const Row = styled.div`
   justify-itens: center;
   padding: 5%;
   width: 70%;
-
-  border:solid;
-  border-color: blue;
-  
-  
 `;
 
 
