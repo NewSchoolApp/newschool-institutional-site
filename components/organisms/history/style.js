@@ -55,10 +55,11 @@ export const TextBottom = styled.p`
 export const Row = styled.div`
   display: flex;
   position: relative;
-  align-itens: center;
-  justify-itens: center;
-  padding: 5%;
+  align-items: center;
+  justify-items: center;
+  padding: 2% 5% 5%;
   width: 70%;
+  margin-bottom: 5%;
 `;
 
 

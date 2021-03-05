@@ -28,20 +28,21 @@ export const Description = styled.div`
   justify-content: center;
   width: 69.8%;
   height: 13.7%;
-  
 `;
 
 export const Text = styled.p`
+  font-family: "Roboto";
   font-size: 24px;
+  font-weight: 400;
   line-height: 34px;
-  color: #3f3d56;
-  
+  letter-spacing: 0px;
 `;
 
 export const Video = styled.video`
-  width:69.7%;
+  width: 69.7%;
   height: 52.4%;
   position: relative;
   outline: none;
   border-radius: 10px;
+  margin-bottom: 2%;
 `;
