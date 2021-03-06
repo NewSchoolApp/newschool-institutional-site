@@ -8,6 +8,7 @@ export const Container = styled.div `
   justify-content: center;
   align-items: center;
   padding: 2%;
+  margin-bottom: 10%;
 `;
 
 export const Flex = styled.div `

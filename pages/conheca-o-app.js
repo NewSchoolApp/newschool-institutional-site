@@ -1,11 +1,19 @@
-import Head from 'next/head'
-import { COLORS } from '../styles/colors'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import { COLORS } from "../styles/colors";
+import DownloadTheApp from "../components/organisms/downloadTheApp";
+import TechnologyContent from "../components/organisms/technology-content";
+import FreeClass from "../components/organisms/freeClasses";
+import StayOn from "../components/atoms/stay-on-grafit";
+import StayOnScreen from "../components/organisms/stay-on";
 
 export default function KnowTheApp() {
   return (
-    <div className={styles.container}>
-      <h1 style={{color: `${COLORS.primary}`}}> CONHEÇA O APP </h1>
-    </div>
-  )
+    <>
+      <DownloadTheApp />
+      <TechnologyContent />
+      <FreeClass />
+      <StayOn />
+      <StayOnScreen />
+    </>
+  );
 }

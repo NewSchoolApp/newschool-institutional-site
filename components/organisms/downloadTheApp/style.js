@@ -3,12 +3,17 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div `
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow-y: hidden;
   padding: 2%;
-  background-image:url('grafit.png');
+  background-image:url('grafit-bg.svg');
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  background-position: left;
 `;
 
 export const Flex = styled.div `
@@ -24,12 +29,12 @@ export const Flex = styled.div `
 export const Image = styled.img `
   z-index: 1;
   position: relative;
-  width: 904px;
-  height: 713px;
+  width: 1121px;
+  height: 1121px;
   border-radius: 6px;
   margin: 1%;
   right:0;
-  top: 14%;
+  top: 2%;
   position: absolute;
   flex:auto;
   transform: rotate(-6.69deg);  
