@@ -1,15 +1,30 @@
-import Head from "next/head";
 import React from "react";
-import { COLORS } from "../styles/colors";
+import dynamic from "next/dynamic";
 import styles from "../styles/Home.module.css";
-import Header from "../components/organisms/header";
-import VideoLoop from "../components/atoms/video-loop";
-import Presentation from "../components/organisms/presentation";
-import Values from "../components/organisms/values";
-import NewSchoolGrafit from "../components/atoms/newschool-grafit";
-import BelieveUs from "../components/organisms/believe-us";
-import AboutUs from "../components/organisms/about-us";
-import GoTop from "../components/atoms/go-top";
+
+const VideoLoop = dynamic(() => import("../components/atoms/video-loop"), {
+  ssr: false,
+});
+const Presentation = dynamic(
+  () => import("../components/organisms/presentation"),
+  { ssr: false }
+);
+const Values = dynamic(() => import("../components/organisms/values"), {
+  ssr: false,
+});
+const NewSchoolGrafit = dynamic(
+  () => import("../components/atoms/newschool-grafit"),
+  { ssr: false }
+);
+const BelieveUs = dynamic(() => import("../components/organisms/believe-us"), {
+  ssr: false,
+});
+const AboutUs = dynamic(() => import("../components/organisms/about-us"), {
+  ssr: false,
+});
+const GoTop = dynamic(() => import("../components/atoms/go-top"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (

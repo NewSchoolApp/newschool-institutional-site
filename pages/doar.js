@@ -1,13 +1,38 @@
-import Head from "next/head";
-import { COLORS } from "../styles/colors";
-import styles from "../styles/Home.module.css";
-import Depositions from "../components/organisms/depositions";
-import Metrics from "../components/organisms/metrics";
-import EducaFavela from "../components/organisms/educa-favela";
-import DonatePresentation from "../components/organisms/donatePresentation";
-import BeADonor from "../components/atoms/donor-grafit";
-import BolsaEducaPlus from "../components/organisms/donateBolsaEduca";
-import Transparention from "../components/organisms/transparention";
+import dynamic from 'next/dynamic'
+
+const Depositions = dynamic(
+  () => import("../components/organisms/depositions"),
+  { ssr: false }
+)
+
+const Metrics = dynamic(
+  () => import("../components/organisms/metrics"),
+  { ssr: false }
+)
+
+const EducaFavela = dynamic(
+  () => import("../components/organisms/educa-favela"),
+  { ssr: false }
+)
+
+const DonatePresentation = dynamic(
+  () => import("../components/organisms/donatePresentation"),
+  { ssr: false }
+)
+const BeADonor = dynamic(
+  () => import("../components/atoms/donor-grafit"),
+  { ssr: false }
+)
+
+const BolsaEducaPlus = dynamic(
+  () => import("../components/organisms/donateBolsaEduca"),
+  { ssr: false }
+)
+
+const Transparention = dynamic(
+  () => import("../components/organisms/transparention"),
+  { ssr: false }
+)
 
 export default function Do() {
   return (

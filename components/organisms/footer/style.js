@@ -5,6 +5,7 @@ export const Container = styled.div`
   width: 100%;
   height: 35vh;
   background-color: ${COLORS.secondary};
+  z-index: 999;
 `;
 
 export const FlexContainer = styled.div`
