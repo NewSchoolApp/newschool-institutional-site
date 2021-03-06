@@ -33,7 +33,9 @@ export default function FreeClass(){
                         <ImageLogo src='app-store-logo.svg' />
                     </Row>
                 </Description>
-                    <Image src="take-aula-site_Moment1.png" />
+                    <Video controls>
+                        <source src='https://newschool-intitucional.s3.us-east-2.amazonaws.com/videos/take+aula+site.mp4'/>
+                    </Video>
             </Flex>
         </Container>
     );
