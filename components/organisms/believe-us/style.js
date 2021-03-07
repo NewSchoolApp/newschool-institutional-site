@@ -10,6 +10,10 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2%;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    height: 100%;
+  }
 `;
 
 export const Partners = styled.div`

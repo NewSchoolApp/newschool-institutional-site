@@ -10,6 +10,10 @@ export const Container = styled.div`
   height: 70vh;
   position: relative;
   max-width: 1400px;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    height: 100%;
+  }
 `;
 
 export const Section = styled.div`
