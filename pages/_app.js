@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import "../styles/globals.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = dynamic(
   () => import("../components/organisms/footer"),
