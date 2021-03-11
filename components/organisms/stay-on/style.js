@@ -27,7 +27,6 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  margin-top: -3%;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
