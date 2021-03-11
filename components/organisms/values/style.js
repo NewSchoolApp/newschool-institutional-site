@@ -9,6 +9,11 @@ export const Container = styled.div`
   background-image: url('./favela.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    background: none;
+    height: 100%;
+  }
 `;
 
 export const Section = styled.div`
@@ -17,5 +22,8 @@ export const Section = styled.div`
   align-items: center;
   grid-gap: 3%;
   width: 90%;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+  }
 `;
 

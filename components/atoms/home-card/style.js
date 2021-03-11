@@ -10,30 +10,29 @@ export const Container = styled.div`
   height: 372px;
   width: 280px;
   padding: 20px;
-  border-radius:15px;
+  border-radius: 15px;
   box-shadow: 4px 10px 25px rgba(63, 61, 86, 0.52);
+  @media (max-width: 1000px) {
+    margin: 5% 0;
+  }
 `;
 
 export const Title = styled.h1`
-text-align: center;
-font-weight: bold;
-font-size: 18px;
-line-height: 26px;
-color: ${COLORS.light_black};
-`
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: ${COLORS.light_black};
+`;
 
 export const Icon = styled.img`
-text-align: center;
-margin-bottom: 20px;
-
-`
+  text-align: center;
+  margin-bottom: 20px;
+`;
 
 export const Text = styled.p`
-text-align: center;
-font-size: 16px;
-line-height: 24px;
-color: ${COLORS.gray};
-
-`
-
-
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: ${COLORS.gray};
+`;

@@ -8,6 +8,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2%;
+  @media (max-width: 1000px) {
+    margin-bottom: 5%;
+  }
 `;
 
 export const Flex = styled.div`
@@ -18,11 +21,22 @@ export const Flex = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   grid-gap: 2%;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    background: none;
+    height: 100%;
+  }
 `;
 
 export const Card = styled.div`
   width: 45%;
   position: relative;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    background: none;
+    width: 100%;
+    margin-bottom: 5%;
+  }
 `;
 
 export const Image = styled.img`
@@ -31,12 +45,20 @@ export const Image = styled.img`
   width: 487px;
   height: 487px;
   filter: grayscale(100%);
-  transition: .2s ease-out;
-
+  transition: 0.2s ease-out;
 
   &:hover {
-    transition: .2s ease-in;
+    transition: 0.2s ease-in;
     filter: none;
+  }
+
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    background: none;
+    width: 100vw;
+    margin-top: 20%;
+    margin-left: -30% !important;
+    filter: none
   }
 `;
 
@@ -61,6 +83,14 @@ export const Description = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: center;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    background: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 `;
 
 export const Title = styled.h1`
@@ -69,6 +99,10 @@ export const Title = styled.h1`
   line-height: 64px;
   text-align: left;
   color: ${COLORS.primary};
+
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
 
   margin-bottom: 5%;
 `;

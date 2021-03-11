@@ -5,7 +5,7 @@ export const Image = styled.img`
     width: 100vw;
     overflow: hidden;
     position: absolute;
-    margin-top: -10%;
+    margin-top: -8%;
 `;
 
 export const Container = styled.div`

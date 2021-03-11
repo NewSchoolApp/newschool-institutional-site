@@ -1,13 +1,24 @@
-import Footer from "../components/organisms/footer";
-import Header from '../components/organisms/header'
-import '../styles/globals.css'
+import dynamic from "next/dynamic";
+import "../styles/globals.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Footer = dynamic(
+  () => import("../components/organisms/footer"),
+  { ssr: false }
+)
+const Header = dynamic(
+  () => import("../components/organisms/header"),
+  { ssr: false }
+)
 
 function MyApp({ Component, pageProps }) {
-  return <>
-  <Header />
-  <Component style={{marginTop: "20vh"}} {...pageProps} />
-  <Footer />
-  </>
+  return (
+    <>
+      <Header />
+      <Component style={{ marginTop: "20vh" }} {...pageProps} />
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
