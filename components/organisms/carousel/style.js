@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
-  width: 70%;
+  width: 95%;
   margin: auto;
   display: flex;
   flex-direction: column;
