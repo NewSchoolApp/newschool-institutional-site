@@ -2,23 +2,42 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 90%;
+  margin: 0 6% 0 10%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2%;
+  @media (max-width: 1000px) {
+    flex-wrap: wrap;
+    height: 100%;
+  }
 `;
 
-export const Flex = styled.div`
+export const Partners = styled.div`
   width: 100%;
+  height: 100%;
   max-width: 1400px;
-  padding: 3%;
+  margin: 2%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   grid-gap: 2%;
+  flex-wrap: wrap;
+`;
+export const Image = styled.img`
+  width: 176px;
+  margin: 1% 0;
+  height: 176px;
+  border-radius: 16px;
+  filter: grayscale(100%);
+  &:hover {
+    filter: none;
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
 `;
 
 export const Title = styled.h1`
@@ -29,22 +48,4 @@ export const Title = styled.h1`
   color: ${COLORS.primary};
 
   margin-bottom: 5%;
-  margin-top: -4%;
-`;
-
-export const Text = styled.p`
-  font-family: "Roboto";
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 34px;
-  letter-spacing: 0px;
-`;
-
-export const Video = styled.video`
-  width: 69.7%;
-  height: 52.4%;
-  position: relative;
-  outline: none;
-  border-radius: 10px;
-  margin-bottom: 2%;
 `;

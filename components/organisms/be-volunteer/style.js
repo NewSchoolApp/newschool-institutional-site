@@ -46,5 +46,6 @@ export const LinkText = styled.p`
   font-size: 24px;
   line-height: 130%;
   text-align: center;
+  cursor: pointer;
   filter: none !important;
 `;

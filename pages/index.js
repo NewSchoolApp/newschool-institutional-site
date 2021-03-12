@@ -1,6 +1,5 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import styles from "../styles/Home.module.css";
 
 const VideoLoop = dynamic(() => import("../components/atoms/video-loop"), {
   ssr: false,

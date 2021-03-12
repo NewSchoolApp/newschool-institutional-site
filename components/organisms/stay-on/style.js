@@ -27,7 +27,6 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  margin-top: -3%;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
@@ -44,7 +43,7 @@ export const Input = styled.input`
   width: 79%;
   border: 1px solid ${COLORS.white};
   outline: none;
-  padding: 6px 10px;
+  padding: 5.5px 10px;
   background: transparent;
   color: ${COLORS.white};
 
@@ -54,11 +53,12 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  padding: 6.5px 25px;
+  padding: 10px 25px;
   margin-left: -1px;
   margin-top: 4%;
   text-transform: uppercase;
   border: none;
+  border-top: 1px solid ${COLORS.white};
   color: ${COLORS.primary};
   border-radius: 0px 4px 4px 0px;
   font-family: "Roboto";
