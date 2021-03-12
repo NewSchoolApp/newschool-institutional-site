@@ -31,9 +31,9 @@ export const ImageAbsolute = styled.img`
 
 export const ImageContainer = styled.div`
   position: relative;
-  width: 50%;
+  width: 60%;
   height: 600px;
-  padding: 5% 5%;
+  padding: 6% 12%;
 `;
 
 export const Title = styled.h1`
@@ -41,7 +41,7 @@ export const Title = styled.h1`
   line-height: 40px;
   color: ${COLORS.white};
   margin: 0 5% 0;
-  width: 50%;
+  width: 60%;
   font-size: 47px;
   line-height: 70px;
 `;
@@ -52,6 +52,7 @@ export const Text = styled.p`
   font-weight: 500;
   padding: 0 5%;
   margin-bottom: 3%;
+  width: 60%;
   color: ${COLORS.gray};
 `;
 
@@ -59,6 +60,7 @@ export const Description = styled.p`
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
+  width: 60%;
   color: ${COLORS.gray};
   margin-bottom: 0;
   padding: 0 5%;
@@ -69,10 +71,12 @@ export const Row = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-template-columns: 20% 80%;
   margin-bottom: 5%;
 `;
 
 export const Column = styled.div`
   height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
