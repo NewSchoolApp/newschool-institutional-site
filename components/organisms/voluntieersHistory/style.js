@@ -6,16 +6,15 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   padding: 0 5%;
 `;
 
 export const Image = styled.img`
   left: 9%;
-  display:block;
+  display: block;
   width: 488px;
   height: 488px;
-
 `;
 
 export const ImageAbsolute = styled.img`
@@ -30,57 +29,18 @@ export const ImageAbsolute = styled.img`
   }
 `;
 
-export const BackgroundDivEsq = styled.div`
-  position: absolute;
-  right: 5px;
-  bottom: 5px;
-  display:block;
-  z-index: 0;
-  width: 488px;
-  height: 488px;
-`;
-
-export const ImageDivEsq = styled.div`
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  display:block;
-
-  width: 488px;
-  height: 488px;
-`;
-
 export const ImageContainer = styled.div`
   position: relative;
-  width: 600px;
+  width: 50%;
   height: 600px;
-`;
-
-export const BackgroundDivDir = styled.div`
-  position: absolute;
-  left: 5px;
-  bottom: 5px;
-  display:block;
-  z-index: 0;
-  width: 488px;
-  height: 488px;
-`;
-
-export const ImageDivDir = styled.div`
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  display:block;
-
-  width: 488px;
-  height: 488px;
+  padding: 5% 5%;
 `;
 
 export const Title = styled.h1`
   font-weight: bold;
   line-height: 40px;
   color: ${COLORS.white};
-  margin: 0 0 5% 0;
+  margin: 0 5% 0;
   width: 50%;
   font-size: 47px;
   line-height: 70px;
@@ -90,7 +50,7 @@ export const Text = styled.p`
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
-  
+  padding: 0 5%;
   margin-bottom: 3%;
   color: ${COLORS.gray};
 `;
@@ -100,30 +60,19 @@ export const Description = styled.p`
   line-height: 27px;
   font-weight: 400;
   color: ${COLORS.gray};
-  
   margin-bottom: 0;
+  padding: 0 5%;
 `;
 
 export const Row = styled.div`
   width: 100%;
+  display: flex;
   justify-content: space-between;
-  display: inline-flex;
   align-items: center;
+  grid-template-columns: 20% 80%;
   margin-bottom: 5%;
-
 `;
 
 export const Column = styled.div`
-  width: 40%;
   height: 70%;
-
 `;
-
-
-
-
-
-
-
-
-

@@ -31,6 +31,13 @@ const Volunteers = dynamic(
   }
 );
 
+const VolunteersHistory = dynamic(
+  () => import("../components/organisms/voluntieersHistory"),
+  {
+    ssr: false,
+  }
+);
+
 export default function JoinUs() {
   return (
     <>
@@ -38,6 +45,7 @@ export default function JoinUs() {
       <OurPartnership />
       <BeVolunteerGrafit />
       <BeVolunteer />
+      <VolunteersHistory />
       <Volunteers />
     </>
   );
