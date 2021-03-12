@@ -7,6 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 2% 10%;
+  margin-bottom: 5%;
 `;
 
 export const Flex = styled.div`
