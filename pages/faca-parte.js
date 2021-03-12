@@ -3,14 +3,42 @@ const BePart = dynamic(() => import("../components/organisms/be-part"), {
   ssr: false,
 });
 
-const OurPartnership = dynamic(() => import("../components/organisms/ourPar"), {
-  ssr: false,
-});
+const OurPartnership = dynamic(
+  () => import("../components/organisms/our-partnership"),
+  {
+    ssr: false,
+  }
+);
+
+const BeVolunteerGrafit = dynamic(
+  () => import("../components/atoms/be-volunteer"),
+  {
+    ssr: false,
+  }
+);
+
+const BeVolunteer = dynamic(
+  () => import("../components/organisms/be-volunteer"),
+  {
+    ssr: false,
+  }
+);
+
+const Volunteers = dynamic(
+  () => import("../components/organisms/volunteers"),
+  {
+    ssr: false,
+  }
+);
 
 export default function JoinUs() {
   return (
     <>
       <BePart />
+      <OurPartnership />
+      <BeVolunteerGrafit />
+      <BeVolunteer />
+      <Volunteers />
     </>
   );
 }
