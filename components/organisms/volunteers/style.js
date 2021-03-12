@@ -3,11 +3,11 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 90%;
-  margin: 0 6% 0 10%;
+  margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 2%;
   @media (max-width: 1000px) {

@@ -68,7 +68,7 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-  font-size: 14px;
+  font-size: 20px;
   line-height: 27px;
   color: #3f3d56;
   margin-bottom: 5%;

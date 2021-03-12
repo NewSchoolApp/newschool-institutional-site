@@ -6,7 +6,6 @@ export const Image = styled.img`
   margin: 0 auto;
   overflow: hidden;
   position: absolute;
-  margin-top: 50px;
 `;
 
 export const Container = styled.div`
