@@ -24,8 +24,6 @@ export const Flex = styled.div`
   cursor: pointer;
 `;
 
-
-
 export const Image = styled.img`
   cursor: pointer;
 `;

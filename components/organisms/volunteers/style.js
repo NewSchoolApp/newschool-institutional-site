@@ -18,19 +18,19 @@ export const Container = styled.div`
 
 export const Partners = styled.div`
   width: 100%;
-  height: 100%;
   max-width: 1400px;
-  margin: 2%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 176px 176px 176px 176px 176px 176px;
   grid-gap: 2%;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 `;
 export const Image = styled.img`
   width: 176px;
   margin: 1% 0;
   height: 176px;
+  object-fit: cover;
   border-radius: 16px;
   filter: grayscale(100%);
   &:hover {
