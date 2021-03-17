@@ -3,7 +3,7 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 0 auto 15%;
@@ -54,7 +54,7 @@ export const Message = styled.p`
 `;
 
 export const Video = styled.video`
-  width: 75ch;
+  width: 65ch;
   position: relative;
   outline: none;
   border-radius: 10px;

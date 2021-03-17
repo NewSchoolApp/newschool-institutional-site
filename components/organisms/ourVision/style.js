@@ -41,7 +41,6 @@ export const Text = styled.p `
 `;
 
 export const Title = styled.p `
-  font-family: Montserrat;
   font-size: 29px;
   line-height: 40px;
   font-weight: 700;

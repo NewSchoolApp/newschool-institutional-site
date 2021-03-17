@@ -50,6 +50,7 @@ export const Description = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: center;
+  margin-top: 2.5%;
 `;
 
 export const Title = styled.h1`
@@ -74,8 +75,9 @@ export const TextDescription = styled.p`
   font-size: 14px;
   line-height: 27px;
   color: #3f3d56;
-  margin-bottom: 5%;
-  width: 70%
+  margin-bottom: 10%;
+  margin-top: 2%;
+  width: 70%;
 `;
 
 export const TextTitle = styled.p`

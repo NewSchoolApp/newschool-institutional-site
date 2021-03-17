@@ -17,9 +17,9 @@ export const Container = styled.div`
 `;
 
 export const Partners = styled.div`
-  width: 80%;
+  width: 90%;
   max-width: 1400px;
-  margin: 2%;
+  margin: 2% auto 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,5 +47,5 @@ export const Title = styled.h1`
   text-align: center;
   color: ${COLORS.primary};
 
-  margin-bottom: 5%;
+  margin: 5% auto;
 `;
