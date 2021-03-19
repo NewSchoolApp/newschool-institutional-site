@@ -4,7 +4,7 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div `
   width: 100%;
   height: 60vh;
-  margin-top: 5%;
+  margin: 5% auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

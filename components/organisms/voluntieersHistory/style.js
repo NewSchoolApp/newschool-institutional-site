@@ -8,6 +8,8 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   padding: 0 5%;
+  margin: 0 auto 1%;
+  max-width: 1400px;
 `;
 
 export const Image = styled.img`
@@ -18,6 +20,7 @@ export const Image = styled.img`
 `;
 
 export const ImageAbsolute = styled.img`
+  padding: 10%;
   filter: grayscale(100%);
   transition: 0.3s filter;
   width: 488px;
@@ -31,47 +34,47 @@ export const ImageAbsolute = styled.img`
 
 export const ImageContainer = styled.div`
   position: relative;
-  width: 60%;
+  width: 1200px;
   height: 600px;
-  padding: 6% 12%;
+  padding: 9% 0;
 `;
 
 export const Title = styled.h1`
   font-weight: bold;
   line-height: 40px;
   color: ${COLORS.white};
-  margin: 0 5% 0;
-  width: 60%;
+  width: 90%;
   font-size: 47px;
   line-height: 70px;
+  padding: 0 5%;
+
 `;
 
 export const Text = styled.p`
   font-size: 24px;
   line-height: 34px;
   font-weight: 500;
-  padding: 0 5%;
-  margin-bottom: 3%;
-  width: 60%;
   color: ${COLORS.gray};
+  margin: 0 5% 5%;
+  padding: 0 5%;
 `;
 
 export const Description = styled.p`
   font-size: 18px;
   line-height: 27px;
   font-weight: 400;
-  width: 60%;
   color: ${COLORS.gray};
-  margin-bottom: 0;
+  margin: 0 5%;
   padding: 0 5%;
 `;
 
 export const Row = styled.div`
   width: 100%;
+  margin: 0 auto 5%;
+  max-width: 1019px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5%;
 `;
 
 export const Column = styled.div`
@@ -79,4 +82,5 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 1%;
 `;

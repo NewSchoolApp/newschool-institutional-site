@@ -3,6 +3,8 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Flex = styled.div`
-  width: 75%;
+  width: 100%;
   max-width: 1400px;
   padding: 5%;
   display: flex;
@@ -111,7 +113,7 @@ export const Text = styled.p`
   font-size: 18px;
   line-height: 27px;
   color: #3f3d56;
-  margin-bottom: 13%;
+  margin-bottom: 8%;
 `;
 
 export const Button = styled.button`

@@ -7,7 +7,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
   background-image: url("./banner-doacao.png");
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 `;
 
@@ -31,6 +31,10 @@ export const Text = styled.p`
   color: ${COLORS.white};
   width: 80%;
 `;
+
+export const LinkDonate = styled.a`
+  color: ${COLORS.white};
+`
 
 export const Button = styled.button`
   width: 175px;

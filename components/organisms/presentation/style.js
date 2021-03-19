@@ -3,22 +3,20 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 0 auto 15%;
-  height: 70vh;
+  margin: 10% auto;
   position: relative;
   max-width: 1400px;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
-    height: 100%;
   }
 `;
 
 export const Section = styled.div`
-  margin: 0 1%;
-  height: 90%;
+  width: 50%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +52,7 @@ export const Message = styled.p`
 `;
 
 export const Video = styled.video`
-  width: 75ch;
+  width: 65ch;
   position: relative;
   outline: none;
   border-radius: 10px;

@@ -3,6 +3,9 @@ import { COLORS } from "../../../styles/colors";
 
 export const FlexList = styled.ul`
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
 `;
 
 export const ListItem = styled.li`
@@ -26,8 +29,8 @@ export const ListItem = styled.li`
   }
 
   &:hover {
-      cursor: pointer;
-   }
+    cursor: pointer;
+  }
 
   &:hover:after {
     width: 75%;
@@ -35,7 +38,6 @@ export const ListItem = styled.li`
     background: #fff;
     cursor: pointer;
   }
-  
 `;
 
 export const ListItemSpecial = styled.li`
@@ -58,4 +60,6 @@ export const ListItemSpecial = styled.li`
   }
 `;
 
-export const Menu = styled.nav``;
+export const Menu = styled.nav`
+
+`;

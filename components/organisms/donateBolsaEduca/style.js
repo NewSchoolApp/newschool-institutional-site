@@ -31,11 +31,10 @@ export const Image = styled.img`
   width: 487px;
   height: 487px;
   filter: grayscale(100%);
-  transition: .2s ease-out;
-
+  transition: 0.2s ease-out;
 
   &:hover {
-    transition: .2s ease-in;
+    transition: 0.2s ease-in;
     filter: none;
   }
 `;
@@ -45,7 +44,6 @@ export const Icon = styled.img`
   position: relative;
   width: 48px;
   height: 48px;
-
 `;
 
 export const Background = styled.img`
@@ -115,16 +113,24 @@ export const Row = styled.div`
   align-items: center;
   justify-items: center;
   padding: 1% 3%;
-  
-  
+`;
+
+export const LinkDonate = styled.a`
+  color: ${COLORS.primary};
+  transition: background-color 0.2s ease-out;
+
+  &:hover {
+    background-color: ${COLORS.primary};
+    color: ${COLORS.white};
+    cursor: pointer;
+    transition: background-color 0.2s ease-in;
+  }
 `;
 
 export const TextRight = styled.p`
   font-size: 18px;
   line-height: 27px;
   color: #3f3d56;
-  display:block;
+  display: block;
   margin-left: 5%;
-  
-
 `;
