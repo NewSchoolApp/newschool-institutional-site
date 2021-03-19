@@ -3,7 +3,7 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
-  height: 70vh;
+  height: 100%;
   background-color: ${COLORS.light_gray};
   display: flex;
   flex-direction: column;
