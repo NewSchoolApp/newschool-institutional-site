@@ -11,7 +11,9 @@ export default function BeVolunteerPage(_) {
           Você que pensa em apoiar uma causa e ao mesmo tempo, doar seu
           conhecimento em prol do social. Essa é a sua oportunidade!
         </Text>
-        <LinkText>Se inscreva por esse formulário.</LinkText>
+        <LinkText>
+          <a href="https://forms.gle/uRj8yozUvWNJ9zBV6" target="_blank">Se inscreva por esse formulário.</a>
+        </LinkText>
       </Flex>
     </Container>
   );

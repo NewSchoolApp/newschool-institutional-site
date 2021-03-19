@@ -4,12 +4,11 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div`
     width:100%;
     max-width: 1400px;
-    height: 70vh;
     display: flex;
     justify-content: center;
     flex-direction: row;
     padding: 4%;
-    margin: 0 auto 5%;;
+    margin: 50px auto 120px;;
 `;
 
 export const TextInput = styled.input.attrs({

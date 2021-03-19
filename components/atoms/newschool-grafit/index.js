@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 export default function HomeCard({ icon, title, text }) {
   return (
     <Container>
-      <Image src="grafit.png" />
+      <Image src="newschool-grafit-center.svg" />
     </Container>
   );
 }

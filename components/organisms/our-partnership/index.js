@@ -17,23 +17,26 @@ import { getExternalCredentials } from "../../../services/getExternalCredentials
 
 export default function OurPartnership(_) {
   const [name, setName] = useState()
-  const [email, setEmail] = useState()
+  const [phone, setPhone] = useState()
   const [message, setMessage] = useState()
+  const [company, setCompany] = useState()
+  const [email, setEmail] = useState()
   
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
+      console.log(message);
       const res = await getExternalCredentials();
       const token = res.data.accessToken
       
       const messageSubmited = await contactUs.submit({
-        name: "Leonardo",
-        message: "Muito massa",
-        cellphone: "9645979824"
+        name,
+        message,
+        cellphone: phone
       }, token)
 
      if(messageSubmited) {
-       alert("Obrigado, deu tudo certo!")
+       alert("Valeu, deu tudo certo!")
        resetForm() 
       }
      
@@ -42,7 +45,11 @@ export default function OurPartnership(_) {
     }
   };
   const resetForm = () => {
-      alert("Formulario resetado")
+      setName("")
+      setMessage("")
+      setPhone("")
+      setEmail("")
+      setCompany("")
   }
 
   return (
@@ -61,17 +68,17 @@ export default function OurPartnership(_) {
       </TextContainer>
       <FormContainer>
         <Column>
-          <TextInput placeholder="Nome"></TextInput>
-          <TextInput placeholder="E-mail"></TextInput>
+          <TextInput value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"></TextInput>
+          <TextInput value={email} placeholder="E-mail"></TextInput>
           <Row>
             <Column>
-              <TextInput placeholder="Empresa"></TextInput>
+              <TextInput value={company} placeholder="Empresa"></TextInput>
             </Column>
             <Column>
-              <TextInput placeholder="Telefone"></TextInput>
+              <TextInput value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Telefone"></TextInput>
             </Column>
           </Row>
-          <TextAreaInput placeholder="Mensagem"></TextAreaInput>
+          <TextAreaInput value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Mensagem"></TextAreaInput>
         </Column>
         <Button onClick={(e) => handleSubmit(e)}>Enviar mensagem</Button>
       </FormContainer>

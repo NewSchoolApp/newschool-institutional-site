@@ -32,6 +32,10 @@ export const Text = styled.p`
   width: 80%;
 `;
 
+export const LinkDonate = styled.a`
+  color: ${COLORS.white};
+`
+
 export const Button = styled.button`
   width: 175px;
   padding: 10px 20px;

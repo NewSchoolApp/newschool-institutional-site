@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 export const Container = styled.div `
   width: 100%;
-  height: 100vh;
-  display: grid;
+  height: 80vh;
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   overflow-y: hidden;
   padding: 2%;
   background-image:url('foto-banner-new-school-pb-1.svg');
-  background-size: 100% 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
 `;
@@ -29,7 +29,8 @@ export const Column = styled.div`
     flex-direction:column;
     align-items: left;
     justify-content: center;
-    width: 28%;
+    width: 100%;
+    padding: 10%;
 `;
 
 export const Text = styled.p `

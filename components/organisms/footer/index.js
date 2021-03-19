@@ -21,7 +21,9 @@ export default function PartnersComponent() {
         <Section>
           <Politics>
             <PoliticsText>Política de privacidade</PoliticsText>
-            <PoliticsText>Termos de uso</PoliticsText>
+            <Link href="/termos-de-uso">
+              <PoliticsText>Termos de uso</PoliticsText>
+            </Link>
           </Politics>
           <SocialMedias>
             <Link href="https://www.facebook.com/newschoolapp">

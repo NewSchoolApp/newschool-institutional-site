@@ -6,19 +6,17 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 0 auto 15%;
-  height: 70vh;
+  margin: 10% auto;
   position: relative;
   max-width: 1400px;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
-    height: 100%;
   }
 `;
 
 export const Section = styled.div`
-  margin: 0 1%;
-  height: 90%;
+  width: 50%;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;

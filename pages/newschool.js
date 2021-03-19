@@ -4,7 +4,7 @@ const Esquilo = dynamic(() => import("../components/organisms/esquilo"), {
 });
 
 const NewschoolGrafit = dynamic(
-  () => import("../components/atoms/newschool-grafit-center"),
+  () => import("../components/atoms/newschool-grafit"),
   { ssr: false }
 );
 
