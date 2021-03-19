@@ -9,8 +9,6 @@ export const Container = styled.div`
 
 export const Video = styled.video`
   width: 100%;
-  max-width: 1600px;
-
 `;
 
 export const VideoSource = styled.source``;
