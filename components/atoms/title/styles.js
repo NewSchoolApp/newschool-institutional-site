@@ -6,5 +6,5 @@ export const Label = styled.p `
   line-height: 130%;
   font-weight: 800;
   color:${props => props.color};
-  text-align: center;
+  text-align: left;
 `;

@@ -22,9 +22,9 @@ export default function DonateBolsaEduca() {
       <Flex>
         <Description>
           <TextTitle>
-            Apoie o desenvolvimento de um jovem Bolsa de estudo
+            Apoie o desenvolvimento de um jovem
           </TextTitle>
-          <Title>Bolsa de estudo</Title>
+          <Title>Bolsa de estudos</Title>
           <Text>
             Por apenas 29,90 por mês, você apoia um jovem a ter acesso a
             atividades de esporte e cultura no Espaço Resenha e ao aplicativo,
