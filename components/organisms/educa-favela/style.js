@@ -34,6 +34,13 @@ export const Text = styled.p`
 
 export const LinkDonate = styled.a`
   color: ${COLORS.white};
+
+  &:hover {
+    background-color: ${COLORS.white};
+    color: ${COLORS.primary};
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
 `
 
 export const Button = styled.button`
@@ -51,10 +58,10 @@ export const Button = styled.button`
   transition: 0.2s ease-out;
   margin-top: 1.5%;
 
-  &:hover {
+  &:hover, &:hover a {
     background-color: ${COLORS.white};
     color: ${COLORS.primary};
-    transition: 0.2s ease-in;
+    transition: 0.1s ease-in;
     cursor: pointer;
   }
 `;

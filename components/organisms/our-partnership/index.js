@@ -25,7 +25,6 @@ export default function OurPartnership(_) {
   const handleSubmit = async (e) => {
     try {
       e.preventDefault();
-      console.log(message);
       const res = await getExternalCredentials();
       const token = res.data.accessToken
       
