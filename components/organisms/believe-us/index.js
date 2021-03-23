@@ -11,7 +11,7 @@ export default function PartnersComponent() {
             <Image src="logos/experience-club-logo.png" />
             <Image src="logos/instituto-semear-logo.png" />
             <Image src="logos/RHIS_LOGO.png" />
-            <Image src="logos/soto-logo.svg" />
+            <Image src="logos/soto-logo1.svg" />
             <Image src="logos/link-Api-logo.png" />
             <Image src="logos/natal.svg" />
             <Image src="logos/cavaliere-logo.png" />
