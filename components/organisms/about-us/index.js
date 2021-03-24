@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 import {
   Container,
   Flex,
@@ -23,8 +24,9 @@ export default function AboutUs() {
             Conheça o aplicativo que leva educação de qualidade para a quebrada,
             em uma linguagem única e diferenciada.
           </Text>
-
-          <Button>Saiba mais</Button>
+          <Link href="/doar">
+            <Button>Saiba mais</Button>
+          </Link>
         </Description>
       </Flex>
 
@@ -36,10 +38,12 @@ export default function AboutUs() {
             inteira.
           </Text>
 
-          <Button>Saiba mais</Button>
+          <Link href="/doar">
+            <Button>Saiba mais</Button>
+          </Link>
         </Description>
         <Card>
-          <Image style={{ marginLeft: "10%" }}  src="gray/pack2.png" />
+          <Image style={{ marginLeft: "10%" }} src="gray/pack2.png" />
         </Card>
       </Flex>
 
@@ -54,7 +58,9 @@ export default function AboutUs() {
             no Brasil.
           </Text>
 
-          <Button>Saiba mais</Button>
+          <Link href="/doar">
+            <Button>Saiba mais</Button>
+          </Link>
         </Description>
       </Flex>
     </Container>
