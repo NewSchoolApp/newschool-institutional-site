@@ -14,7 +14,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=1024" />
+        <meta name="viewport" content="width=1400" />
+        <link rel="shortcut icon" href="favicon.ico" />
         <title>Aki eh New School</title>
       </Head>
       <Header />
