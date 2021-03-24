@@ -14,8 +14,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=1024" />
-        <title>Aki eh New School</title>
+        <meta name="viewport" content="width=1400" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>New School</title>
       </Head>
       <Header />
       <Component style={{ marginTop: "20vh" }} {...pageProps} />
