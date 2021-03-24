@@ -19,10 +19,10 @@ export default function Galery() {
 
       <Carousel fade>
         <Carousel.Item>
-          <Image src="galeria/2.png" />
+          <Image src="galeria/1.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <Image src="galeria/1.png" />
+          <Image src="galeria/2.png" />
         </Carousel.Item>
         <Carousel.Item>
           <Image src="galeria/3.png" />
@@ -31,10 +31,22 @@ export default function Galery() {
           <Image src="galeria/4.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <Image src="galeria/6.jpeg" />
+          <Image src="galeria/5.png" />
         </Carousel.Item>
         <Carousel.Item>
-          <Image src="galeria/15.jpeg" />
+          <Image src="galeria/6.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image src="galeria/7.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image src="galeria/8.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image src="galeria/9.png" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <Image src="galeria/10.png" />
         </Carousel.Item>
       </Carousel>
       <Text>

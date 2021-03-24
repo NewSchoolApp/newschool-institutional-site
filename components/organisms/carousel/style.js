@@ -4,6 +4,7 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div`
   width: 95%;
   margin: auto;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,6 +32,7 @@ export const Image = styled.img`
   height: 60vh;
   margin-bottom: 5%;
   border-radius: 15px;
+  object-fit: cover;
 `;
 
 export const Icon = styled.img`
