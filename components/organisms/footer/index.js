@@ -20,7 +20,9 @@ export default function PartnersComponent() {
       <FlexContainer>
         <Section>
           <Politics>
+            <Link href="/politica-de-privacidade">
             <PoliticsText>Política de privacidade</PoliticsText>
+            </Link>
             <Link href="/termos-de-uso">
               <PoliticsText>Termos de uso</PoliticsText>
             </Link>

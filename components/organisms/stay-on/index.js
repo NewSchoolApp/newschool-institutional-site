@@ -12,7 +12,7 @@ import {
 export default function StayOnPage(_) {
   const [message, setMessage] = useState();
   const handleSignin = (e) => {
-    event.preventDefault()
+    e.preventDefault()
 
     if(!message || !message.includes("@") || !message.includes(".")){
       return alert("Por favor, insira um e-mail válido")
