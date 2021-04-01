@@ -24,7 +24,7 @@ export default function AboutUs() {
             Conheça o aplicativo que leva educação de qualidade para a quebrada,
             em uma linguagem única e diferenciada.
           </Text>
-          <Link href="/doar">
+          <Link href="/conheca-o-app">
             <Button>Saiba mais</Button>
           </Link>
         </Description>
@@ -58,7 +58,7 @@ export default function AboutUs() {
             no Brasil.
           </Text>
 
-          <Link href="/doar">
+          <Link href="/faca-parte">
             <Button>Saiba mais</Button>
           </Link>
         </Description>
