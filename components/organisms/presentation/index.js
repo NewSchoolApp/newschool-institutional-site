@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Section, Title, Text, Message, Video, Button } from "./style";
+import { Container, Section, SectionVideo, Title, Text, Message, Video, Button } from "./style";
 
 import Image from "next/image";
 export default function MenuComponent(_) {
@@ -24,11 +24,11 @@ export default function MenuComponent(_) {
 
         <Message>{message}</Message>
       </Section>
-      <Section>
+      <SectionVideo>
         <Video controls id="video">
           <source src="video-movimento-home.mp4" />
         </Video>
-      </Section>
+      </SectionVideo>
     </Container>
   );
 }

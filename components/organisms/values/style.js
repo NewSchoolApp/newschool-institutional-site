@@ -11,7 +11,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
-    background: none;
+    background-size: cover;
     height: 100%;
   }
 `;
@@ -20,7 +20,7 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-gap: 3%;
+
   width: 90%;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
