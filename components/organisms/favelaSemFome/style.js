@@ -68,5 +68,5 @@ export const Button = styled.button`
 
 export const Section = styled.div`
   width: 40%;
-  margin: 20% auto 0 10%;
+  margin: 16% auto 0 10%;
 `;
