@@ -18,7 +18,7 @@ export default function MenuComponent(_) {
         <Link href="/conheca-o-app">
           <ListItem>Conheça o App</ListItem>
         </Link>
-        <Link href="/doar">
+        <Link href="/doar-cestas">
           <ListItemSpecial>Seja um doador</ListItemSpecial>
         </Link>
       </FlexList>
