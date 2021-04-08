@@ -51,11 +51,6 @@ export default function DonateBolsaEduca() {
       <Flex>
         <Description>
           <Title>Como funciona?</Title>
-          <Text>
-            O jovem participa de oficinas de esporte e cultura, workshops,
-            cursos rápidos e videoaulas, tudo gratuito e pensado para a
-            quebrada.
-          </Text>
           <Row>
             <Icon src="heart-hand.svg"></Icon>
             <TextRight>Recebemos sua doação</TextRight>
