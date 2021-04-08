@@ -6,11 +6,16 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin: 10% auto;
   position: relative;
   max-width: 1400px;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    width: 100%;
+    margin-top: -75px;
   }
 `;
 
@@ -20,6 +25,23 @@ export const Section = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (max-width: 500px) {
+    width: 90%;
+    margin: 0 5%;
+    order: 2;
+  }
+`;
+
+export const SectionVideo = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  @media (max-width: 500px) {
+    width: 90%;
+    margin: 0 5% 10%;
+    order: 1;
+  }
 `;
 
 export const VideoBordered = styled.div`
@@ -37,6 +59,12 @@ export const Title = styled.h2`
   font-size: 47px;
   margin-bottom: 48px;
   margin-top: 0;
+  @media (max-width: 500px) {
+    font-size: 20px;
+    line-height: 140%;
+    width: 100%;
+    margin-bottom: 10%;
+  }
 `;
 
 export const Text = styled.p`
@@ -49,6 +77,9 @@ export const Message = styled.p`
   color: ${COLORS.primary};
   font-weight: 500;
   font-size: 18px;
+  @media (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const Video = styled.video`
@@ -56,6 +87,10 @@ export const Video = styled.video`
   position: relative;
   outline: none;
   border-radius: 10px;
+  @media (max-width: 500px) {
+    width: 90%;
+    margin: 0 5%;
+  }
 `;
 
 export const Button = styled.button`

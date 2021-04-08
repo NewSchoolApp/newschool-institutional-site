@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta name="viewport" content="width=1400" />
+        {/* <meta name="viewport" content="width=1400" /> */}
         <link rel="shortcut icon" href="favicon.ico" />
         <title>New School</title>
       </Head>

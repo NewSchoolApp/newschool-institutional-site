@@ -46,6 +46,9 @@ export const Title = styled.h1`
   line-height: 64px;
   text-align: center;
   color: ${COLORS.primary};
+  @media (max-width: 500px) {
+    font-size: 14px;
+  }
 
   margin: 5% auto;
 `;

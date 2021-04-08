@@ -15,6 +15,18 @@ export const Container = styled.div`
   @media (max-width: 1000px) {
     margin: 5% 0;
   }
+
+  @media (max-width: 500px) {
+    background-color: transparent;
+    box-shadow: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    grid-gap: 15px;
+    height: 200px;
+    margin: 5% auto;
+  }
 `;
 
 export const Title = styled.h1`
@@ -23,6 +35,11 @@ export const Title = styled.h1`
   font-size: 18px;
   line-height: 26px;
   color: ${COLORS.light_black};
+  @media (max-width: 500px) {
+    font-size: 12px;
+    text-align: left;
+    color: ${COLORS.primary};
+  }
 `;
 
 export const Icon = styled.img`
@@ -35,4 +52,12 @@ export const Text = styled.p`
   font-size: 16px;
   line-height: 24px;
   color: ${COLORS.gray};
+  flex-direction: column;
+  @media (max-width: 500px) {
+    font-size: 11px;
+    text-align: left;
+    color: ${COLORS.white};
+  }
 `;
+
+export const Section = styled.div``;

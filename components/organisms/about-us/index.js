@@ -38,7 +38,7 @@ export default function AboutUs() {
             inteira.
           </Text>
 
-          <Link href="/doar">
+          <Link href="/doar-cestas">
             <Button>Saiba mais</Button>
           </Link>
         </Description>
