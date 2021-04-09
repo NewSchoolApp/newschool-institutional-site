@@ -20,7 +20,7 @@ export const Section = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
+  grid-gap: 4%;
   width: 90%;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
