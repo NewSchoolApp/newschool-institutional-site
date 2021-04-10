@@ -85,7 +85,7 @@ export const ProgressValue = styled.div`
     height: 20px;
     border-radius: 50%;
     background-color: ${(props) =>
-      props.value > 1 ? COLORS.primary : COLORS.secondary_gray};
+      props.value > 0 ? COLORS.primary : COLORS.secondary_gray};
   }
 
   ::after {
