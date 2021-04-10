@@ -8,6 +8,7 @@ export const Container = styled.div`
   width: 90%;
   position: relative;
   max-width: 1400px;
+  margin: 0 auto;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
   }
