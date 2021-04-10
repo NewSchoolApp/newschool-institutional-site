@@ -127,5 +127,5 @@ export const ValueGoal = styled.p`
 export const Image = styled.img`
   width: 50px;
   height: 50px;
-  margin-right: 5%;
+  margin-right: 15%;
 `;
