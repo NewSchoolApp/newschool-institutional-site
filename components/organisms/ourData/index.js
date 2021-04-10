@@ -35,8 +35,6 @@ export default function DonatePresentation() {
       { families, donated_baskets, donors, impacted_people, total_value },
     ] = response.data;
 
-
-
     setFamilies(parseNumber(families));
     setDonatedBaskets(parseNumber(donated_baskets));
     setDonors(parseNumber(donors));
@@ -44,14 +42,12 @@ export default function DonatePresentation() {
     setTotalValue(parseNumber(total_value));
 
     const percentage = (total_value * 100) / GOAL;
-
-    setPercentage(percentage.toFixed(2));
+    setPercentage(percentage);
   };
 
-
   const parseNumber = (number) => {
-      return number.toLocaleString().replace(/\,/gi, '.')
-  }
+    return number.toLocaleString().replace(/\,/gi, ".");
+  };
 
   donations();
 
@@ -106,7 +102,8 @@ export default function DonatePresentation() {
           <TitleGoal>Arrecadado</TitleGoal>
           <ValueGoal>R${totalValue}</ValueGoal>
         </TotalContainer>
-        <Image src="Vs.svg" />        <TotalContainer>
+        <Image src="Vs.svg" />{" "}
+        <TotalContainer>
           <TitleGoal>Meta</TitleGoal>
           <ValueGoal>R$ {parseNumber(GOAL)}</ValueGoal>
         </TotalContainer>
