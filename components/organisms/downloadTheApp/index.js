@@ -8,9 +8,11 @@ import {
   Text,
   Title,
   Row,
-  Column
+  Column,
+ 
 
 } from "./style";
+import Link from "next/link";
 
 export default function DownloadTheApp(){
     return(
@@ -27,9 +29,22 @@ export default function DownloadTheApp(){
                         </Text>
                     </Description>
                     <Row>
-                        <ImageLogo src='google-play-logo.svg' />
-                        <ImageLogo src='app-store-logo.svg' />
+                        
+
+                        <Link href="https://play.google.com/store/apps/details?id=com.newschool.app">
+              <a target="_blank">
+              <ImageLogo src='google-play-logo.svg' />
+                        
+              </a>
+            </Link>
+            <Link href="https://apps.apple.com/br/app/new-school/id1503840666">
+              <a target="_blank">
+                                     <ImageLogo src='app-store-logo.svg' />
+              </a>
+            </Link>
                     </Row>
+ 
+                    
                 </Column>
                 <Column>
                     <Image src="iPhone.png" />
