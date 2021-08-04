@@ -12,7 +12,7 @@ export default function BeVolunteerPage(_) {
           conhecimento em prol do social. Essa é a sua oportunidade!
         </Text>
         <LinkText>
-          <a href="https://forms.gle/uRj8yozUvWNJ9zBV6" target="_blank">Se inscreva por esse formulário.</a>
+          <a href="https://forms.office.com/r/NQSC3qzDGw" target="_blank">Se inscreva por esse formulário.</a>
         </LinkText>
       </Flex>
     </Container>
