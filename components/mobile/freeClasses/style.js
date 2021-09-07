@@ -12,9 +12,8 @@ export const Container = styled.div`
 `;
 
 export const Flex = styled.div`
-  width: 100%;
-  max-width: 1400px;
-  padding: 3%;
+  width: 100%;  
+  padding: 0%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,7 +35,6 @@ export const ImageLogo = styled.img`
   position: relative;
   width: 177px;
   height: 54px;
-  margin: 1%;
 `;
 
 export const Description = styled.div`
@@ -57,8 +55,7 @@ export const Row = styled.div`
   display: flex;
   position: relative;
   align-items: center;
-  justify-items: center;
-  padding: 5% 0;
+  justify-items: center;  
   width: 100%;
   margin-bottom: 5%;
 `;

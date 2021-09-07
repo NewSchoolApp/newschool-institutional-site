@@ -3,7 +3,7 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;  
-  height: 165px;
+  height: 161px;
   display: flex;
   flex-direction: column;
   align-items: center;
