@@ -13,13 +13,13 @@ const Header = dynamic(() => import("../components/organisms/header"), {
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <meta name="viewport" content="width=1400" />
+      <Head>        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="favicon.ico" />
         <title>New School</title>
-      </Head>
-      <Header />
-      <Component style={{ marginTop: "20vh" }} {...pageProps} />
+      </Head>     
+      <Header />             
+      <Component style={{ marginTop: "20vh" }} {...pageProps} />            
       <Footer />
     </>
   );
