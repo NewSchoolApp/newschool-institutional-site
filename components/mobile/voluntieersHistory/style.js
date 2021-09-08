@@ -5,26 +5,20 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  padding: 0 5%;
-  margin: 0 auto 1%;
-  max-width: 1400px;
+  width: 100%;  
+  padding: 0 0%;  
 `;
 
 export const Image = styled.img`
-  left: 9%;
-  display: block;
-  width: 488px;
-  height: 488px;
+  left: 0%;
+  display: block;  
 `;
 
 export const ImageAbsolute = styled.img`
   padding: 10%;
+  width: 100%;  
   filter: grayscale(100%);
-  transition: 0.3s filter;
-  width: 488px;
-  height: 488px;
+  transition: 0.3s filter;    
 
   &:hover {
     filter: none;
@@ -33,54 +27,39 @@ export const ImageAbsolute = styled.img`
 `;
 
 export const ImageContainer = styled.div`
-  position: relative;
-  width: 1200px;
-  height: 600px;
-  padding: 9% 0;
+  position: relative;  
+  padding: 5% 0;  
 `;
 
 export const Title = styled.h1`
   font-weight: bold;
   line-height: 40px;
   color: ${COLORS.white};
-  width: 90%;
+  width: 100%;
   font-size: 47px;
   line-height: 70px;
   padding: 0 5%;
-
 `;
 
 export const Text = styled.p`
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: 500;
-  color: ${COLORS.gray};
-  margin: 0 5% 5%;
-  padding: 0 5%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 450;
+  margin-left: 1%;
+  text-align: center;
+  color: ${COLORS.gray};    
 `;
 
 export const Description = styled.p`
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
   color: ${COLORS.gray};
-  margin: 0 5%;
-  padding: 0 5%;
+  margin-left: 1%;  
 `;
 
-export const Row = styled.div`
-  width: 100%;
-  margin: 0 auto 5%;
-  max-width: 1019px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-export const Column = styled.div`
-  height: 70%;
+export const Column = styled.div`  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin: 0 1%;
+  align-items: center;  
 `;

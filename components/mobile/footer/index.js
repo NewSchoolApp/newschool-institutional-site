@@ -18,15 +18,10 @@ export default function PartnersComponent() {
   return (
     <Container>
       <FlexContainer>
-        <Section>
-          <Politics>
-            <Link href="/politica-de-privacidade">
-            <PoliticsText>Política de privacidade</PoliticsText>
-            </Link>
-            <Link href="/termos-de-uso">
-              <PoliticsText>Termos de uso</PoliticsText>
-            </Link>
-          </Politics>
+      <Section>
+          <Logo>
+            <Image src="newschool-logo.svg" />
+          </Logo>
           <SocialMedias>
             <Link href="https://www.facebook.com/newschoolapp">
               <a target="_blank">
@@ -44,15 +39,7 @@ export default function PartnersComponent() {
               </a>
             </Link>
           </SocialMedias>
-        </Section>
-        <Section>
-          <Logo>
-            <Image src="newschool-logo.svg" />
-          </Logo>
-          <Copyright>
-            <Text>Todos os direitos reservados. New School 2021.</Text>
-          </Copyright>
-        </Section>
+        </Section>        
       </FlexContainer>
     </Container>
   );

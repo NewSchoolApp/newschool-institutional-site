@@ -2,29 +2,25 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
-  width: 90%;
-  margin: 0 auto;
-  height: 100%;
+  width: 100%;
+  margin: 0 auto;  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 2%;
+  padding: 0%;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
     height: 100%;
   }
 `;
 
-export const Partners = styled.div`
-  width: 100%;
-  max-width: 1400px;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 176px 176px 176px 176px 176px 176px;
-  grid-gap: 2%;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
+export const Row = styled.div`
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  grid-gap: 2%;    
 `;
 export const Image = styled.img`
   width: 176px;
@@ -42,10 +38,9 @@ export const Image = styled.img`
 
 export const Title = styled.h1`
   font-weight: 800;
-  font-size: 47px;
+  font-size: 37px;
   line-height: 64px;
   text-align: center;
   color: ${COLORS.primary};
-
   margin-bottom: 5%;
 `;

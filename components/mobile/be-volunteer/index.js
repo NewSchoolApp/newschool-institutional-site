@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Flex, Title, Text, LinkText } from "./style";
-import Menu from "../../atoms/menu";
 
 export default function BeVolunteerPage(_) {
   return (

@@ -56,10 +56,10 @@ export const Image = styled.img`
 
   @media (max-width: 1000px) {
     flex-wrap: wrap;
-    background: none;
-    width: 100vw;
+    background: none;    
     margin-top: 20%;
-    margin-left: -30% !important;
+    width: 98%;
+    margin-left: 0% !important;
     filter: none
   }
 `;
@@ -103,7 +103,8 @@ export const Title = styled.h1`
   color: ${COLORS.primary};
 
   @media (max-width: 1000px) {
-    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
   }
 
   margin-bottom: 5%;

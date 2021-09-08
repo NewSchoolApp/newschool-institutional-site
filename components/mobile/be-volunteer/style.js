@@ -3,38 +3,40 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
+  height: 80vh;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url("/be-volunteer-background.png");
   background-repeat: no-repeat;
   background-size: cover;
 `;
 
 export const Flex = styled.div`
-  padding: 5px;
-  margin-top: -10%;
+  padding: 5px;  
+  justify-content: flex-start;
 `;
 
 export const Title = styled.h1`
   color: ${COLORS.white};
   font-weight: 800;
-  font-size: 47px;
-  line-height: 130%;
-  text-align: center;
+  font-size: 27px;
+  line-height: 100%;
+  text-align: center;  
+  height: 20vh;
 `;
 
 export const Text = styled.h6`
-  width: 60%;
+  width: 100%;
   margin: 3% auto;
   text-align: center;
   color: ${COLORS.white};
   font-weight: 500;
-  font-size: 24px;
-  line-height: 130%;
+  font-size: 20px;
+  line-height: 100%;
   text-align: center;
+  height: 40vh;
 `;
 
 export const LinkText = styled.p`
@@ -43,9 +45,10 @@ export const LinkText = styled.p`
   text-decoration: underline;
   color: ${COLORS.link};
   font-weight: 800;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 130%;
   text-align: center;
   cursor: pointer;
   filter: none !important;
+  height: 20vh;
 `;

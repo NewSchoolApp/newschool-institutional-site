@@ -6,7 +6,7 @@ export const Container = styled.div`
   max-width: 1400px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   padding: 4%;
   margin: 50px auto 120px; ;
 `;
@@ -21,6 +21,7 @@ export const TextInput = styled.input.attrs({
   border: 2px solid #a3a3a3;
   padding: 8px;
   margin: 8px 12px;
+  width: calc(100% - 32px);
 `;
 
 export const TextAreaInput = styled.textarea.attrs({
@@ -54,20 +55,19 @@ export const TextContainer = styled.div`
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
-  width: 50%;
+  padding: 0px;
+  width: 100%;
 `;
 
 export const Paragraph = styled.p`
   font-size: 18px;
-  line-height: 150%;
+  line-height: 100%;
   display: flex;
   align-items: flex-start;
 `;
 
 export const FormContainer = styled.form`
-  width: 50%;
-  padding: 16px;
+  width: 100%;  
 `;
 
 export const Button = styled.button`

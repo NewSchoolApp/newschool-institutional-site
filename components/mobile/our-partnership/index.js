@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { COLORS } from "../../../styles/colors";
-import { Title } from "../../atoms/title";
+import { Title } from "../../mobile/title";
 import {
   Button,
   Column,
@@ -68,15 +68,9 @@ export default function OurPartnership(_) {
       <FormContainer>
         <Column>
           <TextInput value={name} onChange={(e) => setName(e.target.value)} placeholder="Nome"></TextInput>
-          <TextInput value={email} placeholder="E-mail"></TextInput>
-          <Row>
-            <Column>
-              <TextInput value={company} placeholder="Empresa"></TextInput>
-            </Column>
-            <Column>
-              <TextInput value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Telefone"></TextInput>
-            </Column>
-          </Row>
+          <TextInput value={email} placeholder="E-mail"></TextInput>                      
+          <TextInput value={company} placeholder="Empresa"></TextInput>            
+          <TextInput value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="Telefone"></TextInput>                      
           <TextAreaInput value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Mensagem"></TextAreaInput>
         </Column>
         <Button onClick={(e) => handleSubmit(e)}>Enviar mensagem</Button>

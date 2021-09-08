@@ -69,7 +69,7 @@ export const List = styled.ul`
 `;
 
 export const MenuLabel = styled.label`
-  background-color: #6610f2;
+  background-color: rgb(179,128,230);
   position: fixed;
   top: 0.7rem;
   right: 0.6rem;

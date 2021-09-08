@@ -3,17 +3,13 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
-  height: 35vh;
+  height: 15vh;
   background-color: ${COLORS.secondary};
-  z-index: 999;
-  @media (max-width: 1000px) {
-    height: 15vh;
-  }
+  z-index: 999;  
 `;
 
 export const FlexContainer = styled.div`
-  width: 90%;
-  margin: 0 5%;
+  width: 100%;  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -21,50 +17,20 @@ export const FlexContainer = styled.div`
 `;
 export const Section = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-`;
-
-export const Politics = styled.div`
-  display: flex;
-  grid-gap: 2%;
-  width: 80%;
-  @media (max-width: 1000px) {
-    display: none;
-  }
-`;
-
-export const PoliticsText = styled.p`
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 27px;
-  text-decoration-line: underline;
-  color: ${COLORS.white};
-  cursor: pointer;
-  &:hover {
-    filter: brightness(80%);
-  }
 `;
 
 export const SocialMedias = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 15%;
-  @media (max-width: 1000px) {
-    display: none;
-  }
+  width: 100%;  
 `;
 
 export const Logo = styled.div`
-  width: 45%;
-`;
-
-export const Copyright = styled.div`
-  width: 45%;
-  @media (max-width: 1000px) {
-    display: none;
-  }
+  width: 100%;
 `;
 
 export const Text = styled.p`
@@ -76,6 +42,7 @@ export const Text = styled.p`
 
 export const Image = styled.img`
   cursor: pointer;
+  width: 100%;
   &:hover {
     filter: brightness(80%);
   }

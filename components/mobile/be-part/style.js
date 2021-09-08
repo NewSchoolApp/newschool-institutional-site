@@ -7,29 +7,24 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 2%;  
 `;
 
 export const Flex = styled.div`
   width: 100%;
-  max-width: 1400px;
-  padding: 3%;
+   padding: 0%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   grid-gap: 2%;
 `;
 
 export const Title = styled.h1`
   font-weight: 800;
-  font-size: 47px;
-  line-height: 64px;
+  font-size: 30px;  
   text-align: center;
-  color: ${COLORS.primary};
-
-  margin-bottom: 5%;
-  margin-top: -4%;
+  color: ${COLORS.primary};  
 `;
 
 export const Text = styled.p`
@@ -41,10 +36,9 @@ export const Text = styled.p`
 `;
 
 export const Video = styled.video`
-  width: 69.7%;
-  height: 52.4%;
+  width: 100%;
   position: relative;
   outline: none;
-  border-radius: 10px;
-  margin-bottom: 2%;
+  border-radius: 15px;
+  margin-top: 5%;  
 `;
