@@ -14,6 +14,7 @@ export const Container = styled.div`
 export const Image = styled.img`
   display: flex;
   cursor: pointer;
+  width: 70vw;
 `;
 
 export const Title = styled.h1`
@@ -30,6 +31,7 @@ export const Text = styled.p`
   line-height: 27px;
   color: ${COLORS.white};
   width: 80%;
+  
 `;
 
 export const LinkDonate = styled.a`
@@ -67,6 +69,6 @@ export const Button = styled.button`
 `;
 
 export const Section = styled.div`
-  width: 30%;
+  width: 50%;
   margin: 88px auto 0 10%;
 `;

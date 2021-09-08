@@ -21,7 +21,7 @@ export const Flex = styled.div`
 `;
 
 export const Card = styled.div`
-  width: 45%;
+  width: 1%;
   position: relative;
 `;
 
@@ -54,8 +54,8 @@ export const Background = styled.img`
 `;
 
 export const Description = styled.div`
-  width: 40%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -66,11 +66,11 @@ export const Title = styled.h1`
   font-weight: 800;
   font-size: 47px;
   line-height: 64px;
-  text-align: left;
+  text-align: center;
   color: ${COLORS.primary};
 
-  margin-bottom: 5%;
-  margin-top: -4%;
+  margin-bottom: 55%;
+  margin-top: 15%;
 `;
 
 export const Text = styled.p`
@@ -82,7 +82,7 @@ export const Text = styled.p`
 
 export const TextTitle = styled.p`
   font-size: 18px;
-  line-height: 27px;
+  line-height: 50px;
   color: #3f3d56;
 `;
 

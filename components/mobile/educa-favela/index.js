@@ -9,7 +9,6 @@ import {
   Section,
   LinkDonate,
 } from "./style";
-import Menu from "../../atoms/menu";
 
 export default function EducaFavela(_) {
   return (
