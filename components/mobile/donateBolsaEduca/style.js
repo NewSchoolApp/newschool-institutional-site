@@ -15,21 +15,21 @@ export const Flex = styled.div`
   max-width: 1400px;
   padding: 3%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   grid-gap: 2%;
 `;
 
 export const Card = styled.div`
-  width: 1%;
+  width: 100%;
   position: relative;
 `;
 
 export const Image = styled.img`
   z-index: 2;
   position: relative;
-  width: 487px;
-  height: 487px;
+  width: 100%;  
   filter: grayscale(100%);
   transition: 0.2s ease-out;
 
@@ -64,13 +64,11 @@ export const Description = styled.div`
 
 export const Title = styled.h1`
   font-weight: 800;
-  font-size: 47px;
+  font-size: 37px;
   line-height: 64px;
   text-align: center;
-  color: ${COLORS.primary};
-
-  margin-bottom: 55%;
-  margin-top: 15%;
+  color: ${COLORS.primary};    
+  margin-top: 10%;
 `;
 
 export const Text = styled.p`
@@ -78,6 +76,7 @@ export const Text = styled.p`
   line-height: 27px;
   color: #3f3d56;
   margin-bottom: 5%;
+  margin-top: 5%;
 `;
 
 export const TextTitle = styled.p`

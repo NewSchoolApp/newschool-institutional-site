@@ -12,7 +12,6 @@ import {
   ImageContainer,
   Description,
 } from "./style";
-import Menu from "../../atoms/menu";
 
 export default function Transparention(_) {
   return (

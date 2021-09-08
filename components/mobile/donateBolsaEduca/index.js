@@ -14,7 +14,7 @@ import {
   TextTitle,
   LinkDonate,
 } from "./style";
-import PackImage from "../../atoms/pack-image/";
+import PackImage from "../../mobile/pack-image/";
 
 export default function DonateBolsaEduca() {
   return (

@@ -19,19 +19,18 @@ export const Image = styled.img`
 
 export const Title = styled.h1`
   font-weight: bold;
-  font-size: 29px;
+  font-size: 24px;
   line-height: 40px;
   color: ${COLORS.white};
   margin: 15% 0 0;
-  width: 50%;
+  width: 100%;
 `;
 
 export const Text = styled.p`
   font-size: 18px;
   line-height: 27px;
   color: ${COLORS.white};
-  width: 80%;
-  
+  width: 100%;  
 `;
 
 export const LinkDonate = styled.a`
@@ -58,7 +57,7 @@ export const Button = styled.button`
   background-color: transparent;
   outline: none;
   transition: 0.2s ease-out;
-  margin-top: 1.5%;
+  margin-top: 40%;
 
   &:hover, &:hover a {
     background-color: ${COLORS.white};

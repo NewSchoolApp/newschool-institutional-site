@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const MetricTextImage = styled.img`
-  width: 360px;
+  width: 100%;
   height: 400px;
   margin: 5% 5%;
 `;

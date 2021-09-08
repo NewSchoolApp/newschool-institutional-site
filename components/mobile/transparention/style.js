@@ -34,6 +34,7 @@ export const ImageAbsolute = styled.img`
 
 export const ImageContainer = styled.div`
   position: relative;
+  flex-direction: row;
 `;
 
 export const Title = styled.h1`
@@ -81,6 +82,6 @@ export const Button = styled.p`
 export const Section = styled.div``;
 
 export const Column = styled.div`
-  width: 40%;
-  height: 70%;
+  width: 100%;  
+  flex-direction: row;
 `;

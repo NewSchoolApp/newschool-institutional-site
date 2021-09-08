@@ -6,16 +6,15 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 415px;
+  width: 100%;
   margin: 0 auto 15%;
   height: 40vh;
-  position: relative;
-  max-width: 1400px;
+  position: relative;  
   ;
 `;
 
 export const Section = styled.div`
-  margin: auto 10% 0;
+  margin: auto 5% 0;
   height: 250px;
   display: flex;
   flex-direction: column;
@@ -24,7 +23,7 @@ export const Section = styled.div`
 `;
 
 export const Text = styled.p`
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 19px;
 `;

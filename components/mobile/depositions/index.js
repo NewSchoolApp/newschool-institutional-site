@@ -1,16 +1,15 @@
 import React from "react";
 import Link from "next/link";
-import { Container, Image, Text, BoldText, Section, SectionCenter, Row, Video,ImageHover, ImageLeft } from "./style";
-import Menu from "../../atoms/menu";
+import { Container, Image, Title, Text, BoldText, Section, Row, Video,ImageHover, ImageLeft } from "./style";
 
 export default function Depositions(_) {
   return (
     <Container>
       <Row>
-        <Image src="depoimentos.png" />
+        <Title>Depoimentos</Title>
       </Row>
       <Row>
-        <SectionCenter>
+        <Section>
           <Text>
             "Se tivesse existido algo assim antes. Se tivessem pensado nisso
             antes, acho que hoje meu tio estaria comigo e muitos amigos meus que
@@ -19,7 +18,7 @@ export default function Depositions(_) {
           <BoldText>
             Maria Júlia, líder do time de Esporte do Espaço Físico.
           </BoldText>
-        </SectionCenter>
+        </Section>
         <Section>
           <Video controls id="video">
             <source src="video-doacao.mp4" />
@@ -30,7 +29,7 @@ export default function Depositions(_) {
         <Section>
           <ImageHover src="/pack-doar2.png" />
         </Section>
-        <SectionCenter>
+        <Section>
           <Image src="title-donate.png" />
           <Text>
             Quando eu penso no que a New School representa para mim, uma palavra
@@ -50,7 +49,7 @@ export default function Depositions(_) {
           <BoldText>
             Gabriel Oliveira, líder do time de Cultura do Espaço Físico.
           </BoldText>
-        </SectionCenter>
+        </Section>
       </Row>
     </Container>
   );
