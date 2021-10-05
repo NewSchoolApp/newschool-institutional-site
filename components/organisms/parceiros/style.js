@@ -51,22 +51,10 @@ export const Title = styled.h1`
     font-size: 14px;
   }
 
-  margin: 2% auto;
+  margin: 5% auto;
 `;
 
-export const Paragrafo = styled.h1`
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 64px;
-  text-align: center;
-  color: rgb(98,201,155);
-  font-family: "Jost";
-  @media (max-width: 500px) {
-    font-size: 14px;
-  }
 
-  margin: 2% auto;
-`;
 
 
 

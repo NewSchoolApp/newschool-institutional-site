@@ -51,7 +51,7 @@ export const Title = styled.h1`
     font-size: 14px;
   }
 
-  margin: 1% auto;
+  margin: 5% auto;
 `;
 
 export const Paragrafo = styled.h1`
@@ -65,7 +65,7 @@ export const Paragrafo = styled.h1`
     font-size: 14px;
   }
 
-  margin: 5% auto;
+  margin: 1% auto;
 `;
 
 

@@ -51,39 +51,11 @@ export const Title = styled.h1`
     font-size: 14px;
   }
 
-  margin: 1% auto;
+  margin: 5% auto;
 `;
 
-export const Paragrafo = styled.h1`
-  font-weight: 800;
-  font-size: 32px;
-  line-height: 64px;
-  text-align: center;
-  color: rgb(98,201,155);
-  font-family: "Jost";
-  @media (max-width: 500px) {
-    font-size: 14px;
-  }
 
-  margin: 3% auto;
-`;
-export const Lista = styled.ul`    
-  text-align: center;  
-  margin: 3% auto;
-  
-`;
 
-export const Item = styled.li`
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: left;
-  color: black;
-  font-family: "Jost";
-  @media (max-width: 500px) {
-    font-size: 14px;
-  }  
-`;
 
 
 
