@@ -44,10 +44,10 @@ const Parceiros = dynamic(() => import("../components/organisms/parceiros"), {
 const ParceirosMobile = dynamic(() => import("../components/mobile/parceiros"), {
   ssr: false,
 });
-const Apoio = dynamic(() => import("../components/organisms/Apoio"), {
+const Apoio = dynamic(() => import("../components/organisms/apoio"), {
   ssr: false,
 });
-const ApoioMobile = dynamic(() => import("../components/mobile/Apoio"), {
+const ApoioMobile = dynamic(() => import("../components/mobile/apoio"), {
   ssr: false,
 });
 const AboutUs = dynamic(() => import("../components/organisms/about-us"), {
