@@ -41,7 +41,7 @@ const BelieveUsMobile = dynamic(() => import("../components/mobile/believe-us"),
 const Parceiros = dynamic(() => import("../components/organisms/parceiros"), {
   ssr: false,
 });
-const ParceirosMobile = dynamic(() => import("../components/mobile/parceiros"), {
+const ParceirosMobile = dynamic(() => import("../components/mobile/Parceiros"), {
   ssr: false,
 });
 const Apoio = dynamic(() => import("../components/organisms/apoio"), {
