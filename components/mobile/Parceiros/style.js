@@ -48,10 +48,10 @@ export const Title = styled.h1`
   text-align: center;
   color: ${COLORS.primary};
   @media (max-width: 500px) {
-    font-size: 48px;
+    font-size: 32px;
   }
 
-  margin: 1% auto;
+  margin: 10% auto;
 `;
 
 export const Paragrafo = styled.h1`
@@ -59,13 +59,13 @@ export const Paragrafo = styled.h1`
   font-size: 32px;
   line-height: 64px;
   text-align: center;
-  color: rgb(73,189,96);
+  color: rgb(98,201,155);
   font-family: "Jost";
   @media (max-width: 500px) {
-    font-size: 30px;
+    font-size: 22px;
   }
 
-  margin: 5% auto;
+  margin: 1% auto;
 `;
 
 

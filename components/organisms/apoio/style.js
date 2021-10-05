@@ -59,7 +59,7 @@ export const Paragrafo = styled.h1`
   font-size: 32px;
   line-height: 64px;
   text-align: center;
-  color: rgb(73,189,96);
+  color: rgb(98,201,155);
   font-family: "Jost";
   @media (max-width: 500px) {
     font-size: 14px;
