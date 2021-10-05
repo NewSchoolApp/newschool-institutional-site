@@ -28,8 +28,8 @@ export const Partners = styled.div`
 `;
 export const Image = styled.img`
   height: 70px;
-  margin-bottom: 20%;
-  margin-left: 14%;
+  margin-bottom: 14%;
+  margin-left: 4%;
   filter: grayscale(100%);
   opacity: 0.6;
   transition: 0.2s ease-out;

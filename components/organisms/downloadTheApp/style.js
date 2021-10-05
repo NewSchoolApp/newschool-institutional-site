@@ -29,15 +29,15 @@ export const Flex = styled.div `
 export const Image = styled.img `
   z-index: 1;
   position: relative;
-  width: 1121px;
-  height: 1121px;
+  width: 800px;
+  height:600px;
   border-radius: 6px;
   margin: 1%;
   right:0;
   top: 2%;
   position: absolute;
   flex:auto;
-  transform: rotate(-6.69deg);  
+  transform: rotate(-30.69deg);  
 `;
 
 export const ImageLogo = styled.img `

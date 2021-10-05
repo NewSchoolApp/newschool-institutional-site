@@ -27,9 +27,9 @@ export const Partners = styled.div`
   flex-wrap: wrap;
 `;
 export const Image = styled.img`
-  height: 70px;
-  margin-bottom: 20%;
-  margin-left: 14%;
+  height: 140px;
+  margin-bottom: 14%;
+  margin-left: 4%;
   filter: grayscale(100%);
   opacity: 0.6;
   transition: 0.2s ease-out;
@@ -48,7 +48,7 @@ export const Title = styled.h1`
   text-align: center;
   color: ${COLORS.primary};
   @media (max-width: 500px) {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   margin: 1% auto;
@@ -60,12 +60,30 @@ export const Paragrafo = styled.h1`
   line-height: 64px;
   text-align: center;
   color: rgb(73,189,96);
+  margin-bottom: 14%;
   font-family: "Jost";
   @media (max-width: 500px) {
     font-size: 30px;
   }
 
-  margin: 5% auto;
+  margin: 1% auto;
+`;
+export const Lista = styled.ul`    
+  text-align: center;  
+  margin: 3% auto;
+  
+`;
+
+export const Item = styled.li`
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  color: black;
+  font-family: "Jost";
+  @media (max-width: 500px) {
+    font-size: 14px;
+  }  
 `;
 
 

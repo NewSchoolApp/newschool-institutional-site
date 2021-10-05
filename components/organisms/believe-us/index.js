@@ -1,25 +1,19 @@
 import React from "react";
-import { Container, Title, Partners, Image } from "./style";
+import { Container, Title, Partners, Image, Paragrafo, } from "./style";
 
 export default function PartnersComponent() {
   return (
     <Container>
-        <Title>Quem acredita na causa:</Title>
+        <Title>Clientes</Title>
+        <Paragrafo>Ajudando a construir sonhos</Paragrafo>
+
         <Partners>
-            <Image src="logos/smart-fit.png" />
-            <Image src="logos/semantix-logo.png" />
-            <Image src="logos/experience-club-logo.png" />
+           <Image src="logos/smart-fit.png" />
+            <Image src="logos/ifood.png" />
+            <Image src="logos/bic.png" />
             <Image src="logos/instituto-semear-logo.png" />
-            <Image src="logos/RHIS_LOGO.png" />
-            <Image src="logos/soto-logo1.svg" />
-            <Image src="logos/link-Api-logo.png" />
-            <Image src="logos/natal.svg" />
-            <Image src="logos/cavaliere-logo.png" />
-            <Image src="logos/Allume-contabilidade 1.svg" />
-            <Image src="logos/LOGO_SIGULARITY_COLOR 1.png" />
-            <Image src="logos/MARCA_AZUL_ROSA_1.png" />
-            <Image src="logos/Group.svg" />
-            <Image src="logos/Digi&tal.svg" />
+            <Image src="logos/adsplay.png" />
+           
         </Partners>
     </Container>
   );

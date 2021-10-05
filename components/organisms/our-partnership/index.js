@@ -60,7 +60,7 @@ export default function OurPartnership(_) {
         </Title>
         <Paragraph>
           Saiba como sua empresa, lado a lado com a New School, pode quebrar os
-          paradigmas, e revolucionar a educação de centenas de jovens da
+          paradigmas e revolucionar a educação de centenas de jovens da
           quebrada. Deixe seus dados que nosso time entrará em contato para
           conversarmos melhor.
         </Paragraph>

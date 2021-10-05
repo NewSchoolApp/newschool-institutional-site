@@ -62,7 +62,7 @@ export default function DonateBolsaEduca() {
           <Row>
             <Icon src="heart-coin.svg"></Icon>
             <TextRight>
-              Entregameos para as famílias que mais necessitam
+              Entregamos para as famílias que mais necessitam
             </TextRight>
           </Row>
           <Row>

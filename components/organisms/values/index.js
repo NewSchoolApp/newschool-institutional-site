@@ -22,8 +22,8 @@ export default function MenuComponent(_) {
       icon: "home-p_d-da-quebrada.svg",
       title: "P&D DA QUEBRADA",
       text:
-        "Linguagem original da periferia fazendo diálogo com o nosso público-alvo.",
-    },
+      "Da periferia para a periferia. Jovens periféricos são responsáveis pela roteirização, criação, produção audiovisual e disponibilização dos cursos."
+     },
     {
       icon: "home-protagonismo-jovem.svg",
       title: "PROTAGONISMO JOVEM",
@@ -34,7 +34,7 @@ export default function MenuComponent(_) {
       icon: "home-transformação-social.svg",
       title: "TRANSFORMAÇÃO SOCIAL",
       text:
-        "Aproximar os jovens das oportunidades e mudar o modo social de pensar.",
+        "Aproximar os jovens das oportunidades e mudar o modo social de pensar. É a educação que faz o futuro parecer um lugar de esperança e transformação",
     },
   ];
 

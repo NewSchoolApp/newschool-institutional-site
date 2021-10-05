@@ -52,7 +52,7 @@ export default function Galery() {
       <Text>
         O Espaço da New School, localizado no Jardim João XXIII, zona oeste de
         SP, é voltado para atividades de educação, esporte e cultura, para
-        jovens e adolescentes.
+        jovens e adolescentes. Fechado para visitações devido à pandemia de Covid-19.
         <br />
         <br />
         Educação, Cultura e Esporte: Teatro, coral, dança, ballet, sarau,

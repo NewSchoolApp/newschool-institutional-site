@@ -14,10 +14,10 @@ export default function MenuComponent(_) {
         <Text>
           Somos uma startup social de educação que cria experiências de
           aprendizagem lúdica e prática para jovens das periferias de todo
-          Brasil
+          Brasil de uma forma gratuita
         </Text>
         <Text>
-          Através da New School App proporcionamos acesso à educação de
+          Através da New School App proporcionamos de forma gratuita acesso à educação de
           qualidade na linguagem da quebrada e formamos os protagonistas do
           futuro.
         </Text>

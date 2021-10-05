@@ -14,7 +14,7 @@ export default function PrivacyPolicy() {
         <Text>
           Nós queremos impactar a vida dos jovens das periferias de todo o país,
           formando os novos protagonistas de todas as quebradas, favelas,
-          subúrbios, comunidades, ou como quer que você chame, aí no seu Estado.
+          subúrbios, comunidades, ou como quer que você chame, aí no seu estado.
         </Text>
         <Text>
           Quando você utiliza nossos serviços, fornece algumas informações para

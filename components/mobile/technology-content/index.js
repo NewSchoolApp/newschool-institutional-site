@@ -28,6 +28,7 @@ export default function TechnologyContent() {
             revolucionar a educação, através da tecnologia e curadoria de
             conteúdos que não chegam na periferia.
           </Text>
+          
         </Description>        
         <Card>
           <Image src="conheca-foto-1.png" />
