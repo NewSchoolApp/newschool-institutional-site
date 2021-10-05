@@ -62,7 +62,6 @@ const GoTop = dynamic(() => import("../components/atoms/go-top"), {
   ssr: false,
 });
 
-
 export default function index() {
   return (
     <>
