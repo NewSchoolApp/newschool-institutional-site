@@ -3,7 +3,7 @@ import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+ 
   background-color: ${COLORS.light_gray};
   display: flex;
   flex-direction: column;
@@ -65,7 +65,7 @@ export const Paragrafo = styled.h1`
     font-size: 22px;
   }
 
-  margin: 5% auto;
+ 
 `;
 
 
