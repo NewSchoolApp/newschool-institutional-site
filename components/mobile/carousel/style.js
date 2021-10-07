@@ -28,8 +28,8 @@ export const Card = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 100%;
-  height: 60vh;
+  width: 170%;
+  height: 110%;
   margin-bottom: 5%;
   border-radius: 15px;
   object-fit: cover;
