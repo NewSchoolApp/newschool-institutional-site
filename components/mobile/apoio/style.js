@@ -27,7 +27,7 @@ export const Partners = styled.div`
   flex-wrap: wrap;
 `;
 export const Image = styled.img`
-  height: 140px;
+  height: 50px;
   margin-bottom: 14%;
   margin-left: 4%;
   filter: grayscale(100%);
