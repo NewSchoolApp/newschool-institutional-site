@@ -31,9 +31,9 @@ export default function AboutUs() {
       </Flex>
 
       <Flex>
-        <Description style={{ alignItems: "flex-end" }}>
+        <Description>
           <Title>Doação</Title>
-          <Text style={{ textAlign: "right" }}>
+          <Text>
             Doe um futuro. Apoie um jovem da favela e transforme uma vida
             inteira.
           </Text>
