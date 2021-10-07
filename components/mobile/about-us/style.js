@@ -44,8 +44,8 @@ export const Card = styled.div`
 export const Image = styled.img`
   z-index: 2;
   position: relative;
-  width: 487px;
-  height: 487px;
+  width: 287px;
+  height: 287px;
   filter: grayscale(100%);
   transition: 0.2s ease-out;
 
