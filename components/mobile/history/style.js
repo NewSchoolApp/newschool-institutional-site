@@ -23,8 +23,8 @@ export const Flex = styled.div`
 export const Image = styled.img`
   z-index: 2;
   position: relative;
-  width: 320px;
-  height: 230px;
+  width: 280px;
+  height: 170px;
   
 `;
 
@@ -39,7 +39,7 @@ export const Description = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28.8px;
   color: #3f3d56;
   margin-bottom: 15%;
@@ -48,7 +48,7 @@ export const Text = styled.p`
 `;
 
 export const TextBottom = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 36px;
   color: #3f3d56;
@@ -75,6 +75,6 @@ export const Strong = styled.strong`
 export const StrongBottom = styled.p`
   color: ${COLORS.primary};
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   
 `;

@@ -32,18 +32,19 @@ export const Description = styled.div`
 
 export const Text = styled.p`
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 36px;
   letter-spacing: 0px;
+  margin-bottom: 5%;
   
 `;
 
 export const Video = styled.video`
-  width: 350px;
-  height: 200px;
+  width: 320px;
+  height: 220px;
   position: relative;
   outline: none;
-  border-radius: 80px;
-  margin-bottom: 12%;
+  border-radius: 10px;
+  margin-bottom: 20%;
 `;
