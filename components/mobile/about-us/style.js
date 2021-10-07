@@ -19,7 +19,7 @@ export const Flex = styled.div`
   width: 100%;
   max-width: 1400px;
   padding: 5%;
-  display: flex;
+  
   justify-content: space-between;
   align-items: flex-start;
   grid-gap: 2%;
@@ -99,7 +99,7 @@ export const Title = styled.h1`
   font-weight: 800;
   font-size: 47px;
   line-height: 64px;
-  text-align: left;
+ 
   color: ${COLORS.primary};
 
   @media (max-width: 1000px) {

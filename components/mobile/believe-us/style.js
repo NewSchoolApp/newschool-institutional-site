@@ -4,7 +4,7 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div`
   width: 100%;
  
-  background-color: ${COLORS.light_gray};
+  background-color: ${COLORS.light_white};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,15 +29,9 @@ export const Partners = styled.div`
 export const Image = styled.img`
   height: 70px;
   margin-bottom: 20%;
-  margin-left: 14%;
-  filter: grayscale(100%);
-  opacity: 0.6;
-  transition: 0.2s ease-out;
-
-  &:hover {
-    filter: none;
-    opacity: 1;
-    transition: 0.2s ease-in;
+  margin-left: 5%;
+  
+ 
   }
 `;
 

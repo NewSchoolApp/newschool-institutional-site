@@ -4,7 +4,7 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${COLORS.light_gray};
+  background-color: ${COLORS.light_white};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,15 +30,7 @@ export const Image = styled.img`
   height: 50px;
   margin-bottom: 14%;
   margin-left: 4%;
-  filter: grayscale(100%);
-  opacity: 0.6;
-  transition: 0.2s ease-out;
-
-  &:hover {
-    filter: none;
-    opacity: 1;
-    transition: 0.2s ease-in;
-  }
+  
 `;
 
 export const Title = styled.h1`

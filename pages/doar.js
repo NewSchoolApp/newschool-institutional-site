@@ -91,7 +91,7 @@ export default function Do() {
       <DonatePresentationMobile />
       <MetricsMobile />
       <BolsaEducaPlusMobile />
-      <DepositionsMobile />
+    
      
      
     </>
