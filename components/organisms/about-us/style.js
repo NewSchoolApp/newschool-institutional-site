@@ -83,7 +83,7 @@ export const Description = styled.div`
   height: 50%;
   display: flex;
   flex-direction: column;
-  
+  align-items: left;
   justify-content: center;
   @media (max-width: 1000px) {
     flex-wrap: wrap;

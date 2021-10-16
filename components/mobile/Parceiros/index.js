@@ -13,7 +13,7 @@ export default function PartnersComponent() {
             <Image src="logos/parceiros/deal.png" />
             <Image src="logos/parceiros/salesforce.png" />
             <Image src="logos/parceiros/kingston.png" />
-            <Image src="logos/parceiros/saint.png" />
+          
             <Image src="logos/parceiros/google.png" />
             <Image src="logos/parceiros/microsoft.png" />
            

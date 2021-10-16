@@ -4,7 +4,7 @@ import { Container, Title, Partners, Image,   } from "./style";
 export default function PartnersComponent() {
   return (
     <Container>
-        <Title>Apoio pró-bono</Title>
+        <Title>Apoio</Title>
          
         <Partners>
            <Image src="logos/parceiros/allune.png" />

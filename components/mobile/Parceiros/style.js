@@ -4,7 +4,7 @@ import { COLORS } from "../../../styles/colors";
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background-color: ${COLORS.light_gray};
+  background-color: ${COLORS.white};
   display: flex;
   flex-direction: column;
   justify-content: center;
