@@ -46,3 +46,34 @@ export const Video = styled.video`
   border-radius: 10px;
   margin-bottom: 2%;
 `;
+export const TextBottom = styled.p`
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #3f3d56;
+  margin-bottom: 5%;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-items: center;
+  padding: 2% 5% 5%;
+  width: 70%;
+  margin-bottom: 5%;
+`;
+
+
+export const Strong = styled.strong`
+  color: ${COLORS.primary};
+  font-weight: 700;
+  font-size: 18px;
+`;
+
+export const StrongBottom = styled.p`
+  color: ${COLORS.primary};
+  font-weight: 600;
+  font-size: 24px;
+  
+`;

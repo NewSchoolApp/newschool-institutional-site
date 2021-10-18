@@ -26,10 +26,9 @@ export default function DonateBolsaEduca() {
           </TextTitle>
           <Title>Bolsa de estudos</Title>
           <Text>
-            Por apenas 29,90 por mês, você apoia um jovem a ter acesso a
-            atividades de esporte e cultura no Espaço Resenha e ao aplicativo,
-            onde assiste a aulas que abordam temas sociais, educativos e
-            desenvolve soft skills.
+          Por apenas 29,90 por mês, você apoia um jovem a ter acesso ao aplicativo,
+           onde este aluno poderá assistir aulas de desenvolvimento social, educativo,
+            profissional e soft skills.
             <Text>
               Nosso maior objetivo é formar os protagonistas da quebrada e
               empoderá-los, para que saibam que podem alcançar seus objetivos e
@@ -73,7 +72,7 @@ export default function DonateBolsaEduca() {
         <Description>
           <Title>Quem pode apoiar?</Title>
           <Text>
-            A Bolsa de esuto pode ser adquirida por qualquer pessoa que apoia a
+            A Bolsa de estudo pode ser adquirida por qualquer pessoa que apoia a
             causa e oferecida a um jovem de favela.
           </Text>
           <Text>

@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 900px;
   background-image: url("./banner-doacao.png");
   background-size: cover;
   background-repeat: no-repeat;

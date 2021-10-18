@@ -47,23 +47,9 @@ export const Text = styled.p`
  
 `;
 
-export const TextBottom = styled.p`
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 36px;
-  color: #3f3d56;
-  margin-bottom: 5%;
-`;
 
-export const Row = styled.div`
- 
-  position: relative;
-  
-  justify-items: center;
-  width: 100%;
-  height: 50%;
-  margin-bottom: 5%;
-`;
+
+
 
 
 export const Strong = styled.strong`

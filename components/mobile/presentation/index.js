@@ -9,17 +9,16 @@ export default function MenuComponent(_) {
     <Container>
       <Section>
         <Title>
-          A New School <br />é um movimento
+          Conheça o movimento <br />Esquilo Roxo
         </Title>
         <Text>
-          Somos uma startup social de educação que cria experiências de
-          aprendizagem lúdica e prática para jovens das periferias de todo
-          Brasil
+        Somos uma startup social de educação que cria experiências de aprendizagem lúdica 
+        e prática para jovens das periferias de todo Brasil.
+        
         </Text>
         <Text>
-          Através da New School App proporcionamos acesso à educação de
-          qualidade na linguagem da quebrada e formamos os protagonistas do
-          futuro.
+        Através do nosso aplicativo, proporcionamos de forma gratuita acesso à 
+        educação de qualidade na linguagem da quebrada para formar protagonistas do futuro.
         </Text>
 
         <Message>{message}</Message>

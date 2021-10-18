@@ -48,3 +48,30 @@ export const Video = styled.video`
   border-radius: 10px;
   margin-bottom: 20%;
 `;
+export const Strong = styled.strong`
+  color: ${COLORS.primary};
+  font-weight: 700;
+  font-size: 18px;
+`;
+export const Row = styled.div`
+ 
+  position: relative;
+  
+  justify-items: center;
+  width: 100%;
+  height: 50%;
+  margin-bottom: 5%;
+`;
+export const TextBottom = styled.p`
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #3f3d56;
+  margin-bottom: 5%;
+`;
+export const StrongBottom = styled.p`
+  color: ${COLORS.primary};
+  font-weight: 600;
+  font-size: 20px;
+  
+`;

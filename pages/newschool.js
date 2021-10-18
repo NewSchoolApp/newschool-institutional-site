@@ -67,7 +67,7 @@ function Mobile() {
       <NewschoolGrafitMobile />
       <OurVisionMobile />
       <OurValuesMobile />
-      <CarouselMobile />
+      {/*<CarouselMobile /> */}
       <OurTeamMobile />
     </>
   );
@@ -80,7 +80,7 @@ function Desktop() {
       <NewschoolGrafit />
       <OurVision />
       <OurValues />
-      <Carousel />
+      {/*<Carousel />*/}
       <OurTeam />
     </>
   );

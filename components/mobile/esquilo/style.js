@@ -25,7 +25,7 @@ export const Image = styled.img`
 `;
 
 export const TextDescription = styled.p`
-  font-size: 14px;
+  font-size: 18px;
   line-height: 27px;
   color: #3f3d56;
   margin-bottom: 10%;  
@@ -66,7 +66,7 @@ export const Title = styled.h1`
 `;
 
 export const Text = styled.p`
-font-size: 14px;
+font-size: 18px;
 line-height: 27px;
 color: #3f3d56;
 margin-bottom: 10%;

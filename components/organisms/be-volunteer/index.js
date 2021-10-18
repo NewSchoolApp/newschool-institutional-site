@@ -1,9 +1,19 @@
 import React from "react";
+import queryString from 'query-string';
 import { Container, Flex, Title, Text, LinkText } from "./style";
-import Menu from "../../atoms/menu";
+
 
 export default function BeVolunteerPage(_) {
+  
+  setTimeout(
+    function()
+    {
+      if (location.hash != "")
+        window.location.href=location.hash;
+    }, 500);
+
   return (
+  
     <Container>
       <Flex>
         <Title>Seja voluntário</Title>

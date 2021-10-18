@@ -21,6 +21,7 @@ export default function EducaFavela(_) {
           Quer fortalecer a causa e proporcionar um futuro melhor para um jovem
           da periferia? Doe educação!
         </Text>
+        
         <Button>
           <LinkDonate
             href="https://donorbox.org/new-school-doe-um-futuro"

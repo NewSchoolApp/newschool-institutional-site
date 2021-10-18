@@ -34,7 +34,7 @@ export default function MenuComponent(_) {
       icon: "home-transformação-social.svg",
       title: "TRANSFORMAÇÃO SOCIAL",
       text:
-        "Aproximar os jovens das oportunidades e mudar o modo social de pensar. É a educação que faz o futuro parecer um lugar de esperança e transformação",
+        "Aproximar os jovens das oportunidades e mudar o modo social de pensar.",
     },
   ];
 

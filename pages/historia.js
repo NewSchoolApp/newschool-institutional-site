@@ -51,10 +51,12 @@ export default function Historia() {
 function Desktop() {
   return (
     <>
-      <History />
-      <OurHistory />
-      <OurHistoryBackground />
       <HistoryVideo />
+      <OurHistory />
+        
+      <OurHistoryBackground />
+      <History />
+     
     </>
   );
 }
@@ -62,10 +64,11 @@ function Desktop() {
 function Mobile() {
   return (
     <>
-      <HistoryMobile />
+      <HistoryVideoMobile />
       <OurHistoryMobile />
       <OurHistoryBackgroundMobile />
-      <HistoryVideoMobile />
+      <HistoryMobile />
+      
     </>
   );
 }

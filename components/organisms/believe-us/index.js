@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Title, Partners, Image, Paragrafo, } from "./style";
+import { Container, Title, Partners, Image,  } from "./style";
 
 export default function PartnersComponent() {
   return (
     <Container>
         <Title>Clientes</Title>
-        <Paragrafo>Ajudando a construir sonhos</Paragrafo>
+        
 
         <Partners>
            <Image src="logos/smart-fit.png" />

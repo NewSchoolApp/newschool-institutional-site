@@ -38,7 +38,7 @@ export default function AboutUs() {
             inteira.
           </Text>
 
-          <Link href="/doar-cestas">
+          <Link href="/doar">
             <Button>Saiba mais</Button>
           </Link>
         </Description>
@@ -58,7 +58,7 @@ export default function AboutUs() {
             no Brasil.
           </Text>
 
-          <Link href="/faca-parte">
+          <Link href="faca-parte#voluntario">
             <Button>Saiba mais</Button>
           </Link>
         </Description>
