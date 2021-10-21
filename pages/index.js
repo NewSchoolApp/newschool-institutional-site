@@ -1,6 +1,20 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { isMobile } from "react-device-detect";
+import Modal from 'react-modal';
+import Image from "next/image";
+
+const customStyles = {
+  content: {
+    top: '55%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',    
+    transform: 'translate(-50%, -50%)',
+    padding: '0px'
+  },
+};
 
 const VideoLoop = dynamic(() => import("../components/atoms/video-loop"), {
   ssr: false,
@@ -62,14 +76,46 @@ const GoTop = dynamic(() => import("../components/atoms/go-top"), {
   ssr: false,
 });
 
-export default function index() {
+Modal.setAppElement('#modal-root');
+
+export default function index() {  
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = React.useState(true);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    //subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
-    <>
-      {isMobile ? <Mobile /> : <Desktop />}     
+    <>      
+      {isMobile ? <Mobile /> : <Desktop />}  
+      <div id="modal-root"></div>         
+      <div>      
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Campanha"
+        overlayClassName="Overlay"
+      >        
+        <Image width="650" height="550" src="/campanha.jpeg" />
+      </Modal>    
+    </div>
     </>
   );
 }
-function Desktop() {
+function Desktop() {  
+
   return (
     <>
      <VideoLoop id="top" />
@@ -96,9 +142,7 @@ function Mobile() {
       <BelieveUsMobile />
       <ParceirosMobile />
       <ApoioMobile />
-      <AboutUsMobile />
-      
-        
+      <AboutUsMobile />              
     </>
   );
 }

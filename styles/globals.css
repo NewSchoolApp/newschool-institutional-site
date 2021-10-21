@@ -33,3 +33,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(100, 48, 151,.5);  
+}
