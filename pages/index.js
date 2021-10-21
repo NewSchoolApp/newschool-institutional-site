@@ -16,6 +16,18 @@ const customStyles = {
   },
 };
 
+const customStylesMobile = {
+  content: {
+    top: '55%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',     
+    transform: 'translate(-50%, -50%)',
+    padding: '0px',
+    width: '80%'
+  },
+};
+
 const VideoLoop = dynamic(() => import("../components/atoms/video-loop"), {
   ssr: false,
 });
@@ -78,9 +90,18 @@ const GoTop = dynamic(() => import("../components/atoms/go-top"), {
 
 Modal.setAppElement('#modal-root');
 
-export default function index() {  
-  let subtitle;
+export default function index() {    
+  return (
+    <>      
+      {isMobile ? <Mobile /> : <Desktop />}  
+      <div id="modal-root"></div>               
+    </>
+  );
+}
+function Desktop() {  
   const [modalIsOpen, setIsOpen] = React.useState(true);
+
+  let subtitle;  
 
   function openModal() {
     setIsOpen(true);
@@ -94,12 +115,10 @@ export default function index() {
   function closeModal() {
     setIsOpen(false);
   }
-
+  
   return (
-    <>      
-      {isMobile ? <Mobile /> : <Desktop />}  
-      <div id="modal-root"></div>         
-      <div>      
+    <>
+    <div>      
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -111,13 +130,6 @@ export default function index() {
         <Image width="650" height="550" src="/campanha.jpeg" />
       </Modal>    
     </div>
-    </>
-  );
-}
-function Desktop() {  
-
-  return (
-    <>
      <VideoLoop id="top" />
       <Presentation />
       <NewSchoolGrafit />
@@ -134,8 +146,38 @@ function Desktop() {
 }
 
 function Mobile() {
+  const [modalIsOpen, setIsOpen] = React.useState(true);
+
+  let subtitle;  
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    //subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+
   return (
     <>
+    <div>      
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStylesMobile}
+        contentLabel="Campanha"
+        overlayClassName="Overlay"
+      >        
+        <Image width="350" height="700" layout="responsive" src="/campanhamobile.jpeg" />
+      </Modal>    
+    </div>
       <VideoLoopMobile id="top" />
       <PresentationMobile />
       <ValuesMobile />

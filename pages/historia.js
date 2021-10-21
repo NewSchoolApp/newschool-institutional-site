@@ -32,7 +32,16 @@ const HistoryVideo = dynamic(
   {
     ssr: false,
   }
+  
 );
+const HistoriaRodape = dynamic(() => import("../components/organisms/historiarodape"), {
+  ssr: false,
+});
+
+const Historiacrime = dynamic(() => import("../components/organisms/historiacrime"), {
+  ssr: false,
+});
+
 const HistoryVideoMobile = dynamic(
   () => import("../components/mobile/historyVideo"),
   {
@@ -52,10 +61,11 @@ function Desktop() {
   return (
     <>
       <HistoryVideo />
-      <OurHistory />
-        
-      <OurHistoryBackground />
-      <History />
+      <OurHistory /> 
+     {/* <OurHistoryBackground />*/}
+      {/*<History />*/}
+      <Historiacrime/>
+      <HistoriaRodape />
      
     </>
   );

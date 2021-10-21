@@ -32,7 +32,7 @@ export const Description = styled.div`
 
 export const Text = styled.p`
   font-family: "Roboto";
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0px;
@@ -47,7 +47,7 @@ export const Video = styled.video`
   margin-bottom: 2%;
 `;
 export const TextBottom = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 36px;
   color: #3f3d56;
