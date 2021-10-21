@@ -16,6 +16,7 @@ export default function PartnersComponent() {
           
             <Image src="logos/parceiros/google.png" />
             <Image src="logos/parceiros/microsoft.png" />
+            <Image src="logos/parceiros/village.png" />
            
         </Partners>
     </Container>

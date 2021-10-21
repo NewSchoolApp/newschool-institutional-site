@@ -24,7 +24,9 @@ const customStylesMobile = {
     bottom: 'auto',     
     transform: 'translate(-50%, -50%)',
     padding: '0px',
-    width: '80%'
+    width: '80%',
+    height: '550px',
+    overflow: 'auto',    
   },
 };
 
@@ -166,7 +168,7 @@ function Mobile() {
 
   return (
     <>
-   {/* <div>      
+   <div>      
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -175,9 +177,9 @@ function Mobile() {
         contentLabel="Campanha"
         overlayClassName="Overlay"
       >        
-        <Image width="350" height="700" layout="responsive" src="/campanhamobile.jpeg" />
+        <Image width="431" height="2290" layout="responsive" src="/campanhamobile.jpeg" />
       </Modal>    
-    </div>*/}
+    </div>
       <VideoLoopMobile id="top" />
       <PresentationMobile />
       <ValuesMobile />

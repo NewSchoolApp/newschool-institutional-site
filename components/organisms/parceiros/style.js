@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const Partners = styled.div`
   width: 90%;
   max-width: 1400px;
-  margin: 2% auto 5%;
+  margin: 1% ;
   display: flex;
   justify-content: center;
   align-items: center;
