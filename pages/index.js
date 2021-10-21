@@ -166,7 +166,7 @@ function Mobile() {
 
   return (
     <>
-    <div>      
+   {/* <div>      
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -177,7 +177,7 @@ function Mobile() {
       >        
         <Image width="350" height="700" layout="responsive" src="/campanhamobile.jpeg" />
       </Modal>    
-    </div>
+    </div>*/}
       <VideoLoopMobile id="top" />
       <PresentationMobile />
       <ValuesMobile />
