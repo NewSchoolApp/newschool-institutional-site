@@ -34,7 +34,7 @@ const History = dynamic(() => import("../components/organisms/history"), {
   ssr: false,
 });
 
-const HistoryVideo = dynamic(() => import("../components/organisms/historyVideo"), {
+const HistoryVideo = dynamic(() => import("../components/organisms/historyvideo"), {
   ssr: false,
 });
 
