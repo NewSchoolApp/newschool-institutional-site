@@ -5,6 +5,10 @@ const OurHistory = dynamic(() => import("../components/atoms/our-history"), {
   ssr: false,
 });
 
+const HistoryGrafit = dynamic(() => import("../components/atoms/historyGrafit"), {
+  ssr: false,
+});
+
 const OurHistoryMobile = dynamic(() => import("../components/mobile/our-history"), {
   ssr: false,
 });
@@ -24,11 +28,17 @@ const OurHistoryBackgroundMobile = dynamic(
     ssr: false,
   }
 );
+
+
 const History = dynamic(() => import("../components/organisms/history"), {
   ssr: false,
 });
 
 const HistoryVideo = dynamic(() => import("../components/organisms/historyVideo"), {
+  ssr: false,
+});
+
+const VideoHistory = dynamic(() => import("../components/organisms/videoHistory"), {
   ssr: false,
 });
 
@@ -64,13 +74,15 @@ export default function Historia() {
 function Desktop() {
   return (
     <>
-     
+      <VideoHistory />
       <HistoryVideo />
       <OurHistory /> 
      {/* <OurHistoryBackground />*/}
       {/*<History />*/}
       <Historiacrime/>
+      <HistoryGrafit />
       <HistoriaRodape />
+      
      
     </>
   );

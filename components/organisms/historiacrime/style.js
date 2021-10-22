@@ -114,7 +114,7 @@ export const Text = styled.p`
   font-size: 22px;
   line-height: 27px;
   color: #3f3d56;
-  margin-bottom: 8%;
+  margin-bottom: 0%;
 `;
 
 export const Button = styled.button`
@@ -144,14 +144,14 @@ export const Row = styled.div`
   justify-items: center;
   padding: 2% 5% 5%;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 `;
 export const TextBottom = styled.p`
   font-size: 20px;
   font-weight: 600px;
   line-height: 36px;
   color: #3f3d56;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 `;
 
 export const Strong = styled.strong`

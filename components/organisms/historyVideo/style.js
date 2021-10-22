@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2%;
+  padding: 0%;
 `;
 
 export const Flex = styled.div`
@@ -26,8 +26,9 @@ export const Description = styled.div`
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  width: 69.8%;
+  width: 99.8%;
   height: 13.7%;
+  margin-bottom: 60px;
 `;
 
 export const Text = styled.p`

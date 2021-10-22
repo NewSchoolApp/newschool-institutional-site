@@ -7,9 +7,7 @@ export default function HistoryVideo() {
   return (
     <Container>
       <Flex>
-      <Video controls id="video">
-          <source src="https://newschool-intitucional.s3.us-east-2.amazonaws.com/videos/video-historia.mp4" />
-        </Video>
+      
         <Description>
         <Text>A história da New School começou com apenas uma vida. 
                         <Strong> Gabriel Victor Malara</Strong>, jovem da periferia da zona sul de São Paulo. 
