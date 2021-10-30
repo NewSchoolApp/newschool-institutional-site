@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { isMobile } from "react-device-detect";
-import Modal from 'react-modal';
+//import Modal from 'react-modal';
 import Image from "next/image";
 
 const customStyles = {
@@ -82,6 +82,11 @@ const AboutUs = dynamic(() => import("../components/organisms/about-us"), {
   ssr: false,
 });
 
+const NaMidia = dynamic(() => import("../components/organisms/namidia"), {
+  ssr: false,
+});
+
+
 const AboutUsMobile = dynamic(() => import("../components/mobile/about-us"), {
   ssr: false,
 });
@@ -90,37 +95,38 @@ const GoTop = dynamic(() => import("../components/atoms/go-top"), {
   ssr: false,
 });
 
-Modal.setAppElement('#modal-root');
+//Modal.setAppElement('#modal-root');
 
 export default function index() {    
   return (
     <>      
       {isMobile ? <Mobile /> : <Desktop />}  
-      <div id="modal-root"></div>               
+      {/*<div id="modal-root"></div>               */}
     </>
   );
 }
+ 
 function Desktop() {  
-  const [modalIsOpen, setIsOpen] = React.useState(true);
+  //const [modalIsOpen, setIsOpen] = React.useState(true);
 
   let subtitle;  
 
-  function openModal() {
-    setIsOpen(true);
-  }
+  //function openModal() {
+  //  setIsOpen(true);
+  //}
 
-  function afterOpenModal() {
+  //function afterOpenModal() {
     // references are now sync'd and can be accessed.
     //subtitle.style.color = '#f00';
-  }
+  //}
 
-  function closeModal() {
-    setIsOpen(false);
-  }
+  //function closeModal() {
+  //  setIsOpen(false);
+  //}
   
   return (
     <>
-    <div>      
+    {/*<div>      
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -131,15 +137,16 @@ function Desktop() {
       >        
         <Image width="650" height="550" src="/campanha.jpeg" />
       </Modal>    
-    </div>
+    </div>*/}
      <VideoLoop id="top" />
       <Presentation />
       <NewSchoolGrafit />
       <Values />
       <BelieveUs />
       <Parceiros />
-      <Apoio />
+      <Apoio />          
       <AboutUs />
+      <NaMidia />
       <a href="#top">
         <GoTop />
       </a>
@@ -148,27 +155,27 @@ function Desktop() {
 }
 
 function Mobile() {
-  const [modalIsOpen, setIsOpen] = React.useState(true);
+  //const [modalIsOpen, setIsOpen] = React.useState(true);
 
   let subtitle;  
 
-  function openModal() {
-    setIsOpen(true);
-  }
+  //function openModal() {
+  //  setIsOpen(true);
+  //}
 
-  function afterOpenModal() {
+  //function afterOpenModal() {
     // references are now sync'd and can be accessed.
     //subtitle.style.color = '#f00';
-  }
+  //}
 
-  function closeModal() {
-    setIsOpen(false);
-  }
+  //function closeModal() {
+  //  setIsOpen(false);
+  //}
 
 
   return (
     <>
-   <div>      
+   {/*<div>      
       <Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -179,7 +186,7 @@ function Mobile() {
       >        
         <Image width="431" height="2290" layout="responsive" src="/campanhamobile.jpeg" />
       </Modal>    
-    </div>
+   </div>*/}
       <VideoLoopMobile id="top" />
       <PresentationMobile />
       <ValuesMobile />
