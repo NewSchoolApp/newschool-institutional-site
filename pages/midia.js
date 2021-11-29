@@ -21,7 +21,7 @@ const NewSchoolMidiaMobile = dynamic(
 );
 
 const MidiaContatoMobile = dynamic(
-  () => import("../components/mobile/midiaContatoMobile"),
+  () => import("../components/mobile/our-partnership"),
   {
     ssr: false,
   }
