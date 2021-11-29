@@ -21,7 +21,7 @@ const MidiaContato = dynamic(
 
 
 const NewSchoolMidiaMobile = dynamic(
-  () => import("../components/mobile/be-volunteer"),
+  () => import("../components/mobile/NewSchoolMidia"),
   {
     ssr: false,
   }
