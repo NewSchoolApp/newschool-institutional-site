@@ -109,7 +109,21 @@ export default function Volunteers() {
                         <a target="_blank">
                         <Image src='midia/educavida.jpg' /></a>
             </Link>
+
+            <Link href="https://www.instagram.com/p/CP-y-RKF1J9/">
+                        <a target="_blank">
+                        <Image src='midia/grh.png' /></a>
+            </Link>
            
+            <Link href="https://www.facebook.com/newschoolapp/videos/?ref=page_internal">
+                        <a target="_blank">
+                        <Image src='midia/face.jpg' /></a>
+            </Link>
+
+            <Link href="https://www.youtube.com/watch?v=GiFt6KxnxOs">
+                        <a target="_blank">
+                        <Image src='midia/cortes.png' /></a>
+            </Link>
     
             
         </Partners>
