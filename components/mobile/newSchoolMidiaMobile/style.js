@@ -26,6 +26,13 @@ export const Partners = styled.div`
   flex-wrap: wrap;
   margin-bottom: 100px;
 `;
+export const Row = styled.div`
+  width: 100%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  grid-gap: 2%;    
+`;
 export const Image = styled.img`
   width: 176px;
   margin: 1% 0;
@@ -42,10 +49,10 @@ export const Image = styled.img`
 
 export const Title = styled.h1`
   font-weight: 800;
-  font-size: 47px;
+  font-size: 37px;
   line-height: 64px;
   text-align: center;
   color: ${COLORS.primary};
-
   margin-bottom: 5%;
 `;
+
