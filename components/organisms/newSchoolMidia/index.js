@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Title, Partners, Image } from "./style";
+import { Container, Title,  Image } from "./style";
 
 import Link from "next/link";
 
-export default function Volunteers() {
+export default function NewSchoolMidia() {
   return (
     <Container>
         <Title>Confira a New School na Mídia</Title>
-        <Partners>
+   
         <Link href="https://g1.globo.com/olha-que-legal/noticia/2020/12/13/voluntarios-criam-espaco-e-aplicativo-para-manter-jovens-estudando-na-pandemia-em-sp.ghtml">
                         <a target="_blank">
                         <Image src='midia/g1.jpg' /></a>
@@ -126,7 +126,7 @@ export default function Volunteers() {
             </Link>
     
             
-        </Partners>
+       
     </Container>
   );
 }

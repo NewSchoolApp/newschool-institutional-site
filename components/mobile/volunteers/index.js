@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Title, Partners, Image, Row } from "./style";
-import Link from "next/link";
+
+
 
 export default function Volunteers() {
   return (

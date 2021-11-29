@@ -12,16 +12,11 @@ const MidiaContato = dynamic(
 );
 
 
-  const VolunteersMobile = dynamic(
-    () => import("../components/mobile/volunteers"),
-    {
-      ssr: false,
-    }
-  );
+  
 
 
 const NewSchoolMidiaMobile = dynamic(
-  () => import("../components/mobile/NewSchoolMidia"),
+  () => import("../components/mobile/newSchoolMidia"),
   {
     ssr: false,
   }
@@ -35,7 +30,7 @@ const MidiaContatoMobile = dynamic(
 );
 
 const NewSchoolMidia = dynamic(
-  () => import("../components/organisms/NewSchoolMidia"),
+  () => import("../components/organisms/newSchoolMidia"),
   {
     ssr: false,
   }
@@ -78,7 +73,7 @@ function Mobile() {
      <NewSchoolMidiaMobile />
       {/*<NewSchoolMidia2 />*/}
       <MidiaContatoMobile />
-      <VolunteersMobile />
+      
     </>
   );
 }
