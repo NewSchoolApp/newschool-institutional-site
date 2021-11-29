@@ -64,6 +64,7 @@ export default function OurPartnership(_) {
           quebrada. Deixe seus dados que nosso time entrará em contato para
           conversarmos melhor.
         </Paragraph>
+        <p>Contato: camila@newschool.app</p>
       </TextContainer>
       <FormContainer>
         <Column>

@@ -62,8 +62,9 @@ export default function OurPartnership(_) {
           Saiba como sua empresa, lado a lado com a New School, pode quebrar os
           paradigmas e revolucionar a educação de centenas de jovens da
           quebrada. Deixe seus dados que nosso time entrará em contato para
-          conversarmos melhor.
+          conversarmos melhor.         
         </Paragraph>
+        <p>Contato: camila@newschool.app</p>
       </TextContainer>
       <FormContainer>
         <Column>
