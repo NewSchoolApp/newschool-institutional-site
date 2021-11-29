@@ -15,16 +15,6 @@ export const Container = styled.div`
   }
 `;
 
-export const Partners = styled.div`
-  width: 100%;
-  max-width: 1400px;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 176px 176px 176px 176px 176px 176px;
-  grid-gap: 2%;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
-`;
 export const Row = styled.div`
   width: 100%;  
   display: flex;
@@ -54,4 +44,3 @@ export const Title = styled.h1`
   color: ${COLORS.primary};
   margin-bottom: 5%;
 `;
-
