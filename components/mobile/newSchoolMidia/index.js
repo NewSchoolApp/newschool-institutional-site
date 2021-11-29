@@ -1,11 +1,16 @@
 import React from "react";
 import { Container, Title, Partners, Image, Row } from "./style";
 
-import Link from "next/link";
-import { Row } from "../../organisms/midiaContato/styles";
 
+
+ 
+
+
+import Link from "next/link";
 export default function NewSchoolMidia() {
   return (
+
+
     <Container>
         <Title>Confira a New School na Mídia</Title>
         <Partners>
