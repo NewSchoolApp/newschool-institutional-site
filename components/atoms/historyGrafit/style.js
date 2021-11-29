@@ -6,8 +6,8 @@ export const Image = styled.img`
     overflow: hidden;
     position: relative;
     max-width: 1000px;
-    margin: 50px;
-    
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
     align-items: center;
     top: 95px;`;

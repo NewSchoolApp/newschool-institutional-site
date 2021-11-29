@@ -18,6 +18,9 @@ export default function MenuComponent(_) {
         <Link href="/conheca-o-app">
           <ListItem>Conheça o App</ListItem>
         </Link>
+        <Link href="/midia">
+          <ListItem>New School na Mídia</ListItem>
+        </Link>
         <Link href="/doar">
           <ListItemSpecial>Seja um doador</ListItemSpecial>
         </Link>
