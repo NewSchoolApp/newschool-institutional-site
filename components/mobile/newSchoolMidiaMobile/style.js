@@ -2,14 +2,13 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
-  width: 90%;
-  margin: 0 auto;
-  height: 100%;
+  width: 100%;
+  margin: 0 auto;  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 2%;
+  padding: 0%;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
     height: 100%;
