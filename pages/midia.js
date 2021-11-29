@@ -2,9 +2,7 @@ import dynamic from "next/dynamic";
 import { isMobile } from "react-device-detect";
 
 
-const BePartMobile = dynamic(() => import("../components/mobile/be-part"), {
-  ssr: false,
-});
+
 
 const MidiaContato = dynamic(
   () => import("../components/organisms/midiaContato"),
@@ -15,8 +13,15 @@ const MidiaContato = dynamic(
 
 
 
-const OurPartnershipMobile = dynamic(
-  () => import("../components/mobile/our-partnership"),
+const NewSchoolMidiaMobile = dynamic(
+  () => import("../components/mobile/newSchoolMidiaMobile"),
+  {
+    ssr: false,
+  }
+);
+
+const MidiaContatoMobile = dynamic(
+  () => import("../components/mobile/midiaContatoMobile"),
   {
     ssr: false,
   }
@@ -36,37 +41,6 @@ const NewSchoolMidia2 = dynamic(
 );
 
 
-
-
-
-
-
-const BeVolunteerMobile = dynamic(
-  () => import("../components/mobile/be-volunteer"),
-  {
-    ssr: false,
-  }
-);
-
-
-
-
-
-
-const VolunteersMobile = dynamic(
-  () => import("../components/mobile/volunteers"),
-  {
-    ssr: false,
-  }
-);
-
-
-const VolunteersHistoryMobile = dynamic(
-  () => import("../components/mobile/voluntieersHistory"),
-  {
-    ssr: false,
-  }
-);
 export default function JoinUs() {
   return (
     <>
@@ -93,11 +67,10 @@ function Desktop() {
 function Mobile() {
   return (
       <>
-      <BePartMobile/>
-      <OurPartnershipMobile />
-      <BeVolunteerMobile />
-      <VolunteersHistoryMobile />
-      <VolunteersMobile />
+     
+     <NewSchoolMidiaMobile />
+      {/*<NewSchoolMidia2 />*/}
+      <MidiaContatoMobile />
     </>
   );
 }
