@@ -76,7 +76,7 @@ export default function Volunteers() {
 
             <Link href="https://www.24brasil.com/geral/new-school-aplicativo-oferece-educacao-gratuita-para-jovens-da-periferia-na-pandemia/1206489-noticias">
                         <a target="_blank">
-                        <Image src='midia/brasil24.jpg' /></a>
+                        <Image src='midia/brasil.jpg' /></a>
             </Link>
              
             <Link href="https://www.cidademarketing.com.br/marketing/2021/10/28/bic-fecha-parceria-com-a-startup-de-educacao-new-school-com-conteudos-ludicos-marcas-se-unem-para-levar-educacao-a-jovens-da-periferia/">
