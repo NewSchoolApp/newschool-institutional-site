@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import "../styles/globals.css";
-import "../styles/estilo.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { isMobile } from "react-device-detect";
 

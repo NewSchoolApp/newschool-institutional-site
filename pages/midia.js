@@ -36,12 +36,7 @@ const NewSchoolMidia = dynamic(
     ssr: false,
   }
 );
-const NewSchoolBanner = dynamic(
-  () => import("../components/organisms/newSchoolBanner"),
-  {
-    ssr: false,
-  }
-);
+
 
 
 export default function JoinUs() {
@@ -58,8 +53,7 @@ function Desktop() {
       <NewSchoolMidia />
       
       <MidiaContato />
-      <NewSchoolBanner />
-      
+     
      
       
       
