@@ -4,6 +4,7 @@ import { isMobile } from "react-device-detect";
 
 
 
+
 const MidiaContato = dynamic(
   () => import("../components/organisms/midiaContato"),
   {
@@ -35,8 +36,8 @@ const NewSchoolMidia = dynamic(
     ssr: false,
   }
 );
-const NewSchoolMidia2 = dynamic(
-  () => import("../components/organisms/newSchoolMidia2"),
+const NewSchoolBanner = dynamic(
+  () => import("../components/organisms/newSchoolBanner"),
   {
     ssr: false,
   }
@@ -55,9 +56,9 @@ function Desktop() {
       <>
 
       <NewSchoolMidia />
-      {/*<NewSchoolMidia2 />*/}
+      
       <MidiaContato />
-   
+      <NewSchoolBanner />
       
      
       

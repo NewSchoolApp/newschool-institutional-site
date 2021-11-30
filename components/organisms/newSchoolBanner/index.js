@@ -1,10 +1,12 @@
 import React from "react";
 import { Container, Title, Partners, Image } from "./style";
 
+
+
 import Link from "next/link";
 import { Background } from "../../atoms/pack-image/style";
 
-export default function Volunteers() {
+export default function NewSchoolBanner() {
   return (
     <Container>
         
@@ -12,10 +14,11 @@ export default function Volunteers() {
         <nav>
     <ul class="container">
         <li class="item primeiro">
-            <a href="natacao.html"><span class="text">Futebol</span></a>
-            <image src="midia/instagram"/> 
+            <a href="natacao.html"><span class="text">NewSchool</span></a>
+            
+            
         </li>
-        <li class="item segundo">
+          <li class="item segundo">
             <a href="natacao.html"><span class="text">NataÃ§Ã£o</span></a>
         </li>
         <li class="item terceiro">
