@@ -19,12 +19,7 @@ const MidiaStilo = dynamic(
   }
 );
 
-const MidiaStiloMobile = dynamic(
-  () => import("../components/mobile/midiaStilo"),
-  {
-    ssr: false,
-  }
-);
+
   
 
 
@@ -71,7 +66,7 @@ function Desktop() {
 function Mobile() {
   return (
       <>
-     <MidiaStiloMobile/> 
+    
      <NewSchoolMidiaMobile />
      <MidiaContatoMobile />
       
