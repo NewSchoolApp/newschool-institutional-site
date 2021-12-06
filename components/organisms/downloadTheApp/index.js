@@ -28,14 +28,10 @@ export default function DownloadTheApp(){
                             Google Play e App Store.
                         </Text>
                     </Description>
-                    <Row>
-                        
-
+                    <Row>                      
                         <Link href="https://play.google.com/store/apps/details?id=com.newschool.app">
-              <a target="_blank">
-              <ImageLogo src='google-play-logo.svg' />
-                        
-              </a>
+                        <a target="_blank">
+                        <ImageLogo src='google-play-logo.svg' /></a>
             </Link>
             <Link href="https://apps.apple.com/br/app/new-school/id1503840666">
               <a target="_blank">

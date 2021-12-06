@@ -12,6 +12,13 @@ const MidiaContato = dynamic(
   }
 );
 
+const MidiaStilo = dynamic(
+  () => import("../components/organisms/midiaStilo"),
+  {
+    ssr: false,
+  }
+);
+
 
   
 
@@ -49,15 +56,10 @@ export default function JoinUs() {
 function Desktop() {
   return (
       <>
-
-      <NewSchoolMidia />
-      
-      <MidiaContato />
-     
-     
-      
-      
-      
+      <MidiaStilo/>  
+      <NewSchoolMidia />      
+      <MidiaContato />  
+        
     </>
   );
 }
@@ -66,8 +68,7 @@ function Mobile() {
       <>
      
      <NewSchoolMidiaMobile />
-      {/*<NewSchoolMidia2 />*/}
-      <MidiaContatoMobile />
+     <MidiaContatoMobile />
       
     </>
   );
