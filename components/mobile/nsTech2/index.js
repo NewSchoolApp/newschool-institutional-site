@@ -18,7 +18,7 @@ export default function NsTech2Mobile() {
       <Flex>
         
         <Card>
-          <Image style={{ marginLeft: "10%" }} src="tech/tech2.jpg" />
+          <Image style={{ marginLeft: "10%" }} src="gray/tech2.jpg" />
         </Card>
       </Flex>
 
