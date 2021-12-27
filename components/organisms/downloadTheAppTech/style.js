@@ -7,10 +7,10 @@ export const Container = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items:center ;
   overflow-y: hidden;
   padding: 2%;
-  background-image:url('grafit-bg.svg');
+ background-image:url('grafit-bg.svg');
   background-size: 100% 100vh;
   background-repeat: no-repeat;
   background-position: cemter;
@@ -49,7 +49,7 @@ export const ImageLogo = styled.img `
 `;
 
 export const Description = styled.div `
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,7 @@ export const Description = styled.div `
 export const Column = styled.div`
     display: flex;
     flex-direction:column;
-    align-items: left;
+    align-items: center;
     justify-content: center;
 `;
 
@@ -75,7 +75,7 @@ export const Text = styled.p `
 
 export const Title = styled.p `
   font-family: Montserrat;
-  font-size: 76px;
+  font-size: 44px;
   line-height: 102px;
   font-weight: 700;
   margin-bottom: 1%;

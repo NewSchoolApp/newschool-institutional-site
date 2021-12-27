@@ -2,13 +2,13 @@ import styled from "styled-components";
 import { COLORS } from "../../../styles/colors";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 1400px
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   padding: 2%;
   @media (max-width: 1000px) {
     margin-bottom: 5%;
@@ -45,7 +45,7 @@ export const Card = styled.div`
 export const Image = styled.img`
   z-index: 2;
   position: relative;
-  width: 100%;
+  width: 1400px;
   height: 10p%;
   filter: grayscale(100%);
   transition: 0.2s ease-out;
@@ -58,7 +58,7 @@ export const Image = styled.img`
   @media (max-width: 1000px) {
     flex-wrap: wrap;
     background: none;    
-    margin-top: 20%;
+   
     width: 98%;
     margin-left: 0% !important;
     filter: none
@@ -76,7 +76,7 @@ export const Background = styled.img`
   z-index: 1;
   position: relative;
   left: 9%;
-  top: -400px;
+ 
 `;
 
 export const Description = styled.div`
@@ -84,7 +84,7 @@ export const Description = styled.div`
   height: 50%;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
   @media (max-width: 1000px) {
     flex-wrap: wrap;
@@ -93,48 +93,5 @@ export const Description = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-`;
-
-export const Title = styled.h1`
-  font-weight: 800;
-  font-size: 47px;
-  line-height: 64px;
-  text-align: CENTER;
-  color: ${COLORS.primary};
-
-  @media (max-width: 1000px) {
-    margin-left:-80px;
-    font-size: 27px;
-  }
-
-  margin-bottom: 5%;
-`;
-
-export const Text = styled.p`
-  font-size: 18px;
-  line-height: 27px;
-  color: #3f3d56;
-  margin-bottom: 8%;
-`;
-
-export const Button = styled.button`
-  padding: 10px 25px;
-  width: 180px;
-  color: ${COLORS.primary};
-  list-style: none;
-  border: 1px solid ${COLORS.PRIMARY};
-  background-color: ${COLORS.white};
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 14px;
-  transition: background-color 0.2s ease-out;
-
-  &:hover {
-    background-color: ${COLORS.primary};
-    color: ${COLORS.white};
-    cursor: pointer;
-    transition: background-color 0.2s ease-in;
   }
 `;
