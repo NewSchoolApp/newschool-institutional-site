@@ -11,7 +11,7 @@ import {
   Button,
 } from "./style";
 
-export default function AboutUs() {
+export default function NsTechMobile() {
   return (
     <Container>
      

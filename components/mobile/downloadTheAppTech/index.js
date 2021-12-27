@@ -14,7 +14,7 @@ import {
 } from "./style";
 import Link from "next/link";
 
-export default function DownloadTheApp(){
+export default function DownloadTheAppTechMobile(){
     return(
         <Container>
             <Flex>
