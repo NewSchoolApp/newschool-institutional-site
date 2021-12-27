@@ -18,7 +18,7 @@ export default function AboutUs() {
       <Flex>
         
         <Card>
-          <Image style={{ marginLeft: "10%" }} src="tech/tech1.jpg" />
+          <Image style={{ marginLeft: "10%" }} src="gray/tech1.png" />
         </Card>
       </Flex>
 
