@@ -9,7 +9,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  padding: 2%;
+  padding: 0%;
   @media (max-width: 1000px) {
     margin-bottom: 5%;
     
@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const Flex = styled.div`
   width: 100%;
   max-width: 1400px;
-  padding: 5%;
+  padding: 0%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
