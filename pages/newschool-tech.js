@@ -27,6 +27,14 @@ const NsTech2Mobile = dynamic(() => import("../components/mobile/nsTech2"), {
   ssr: false,
 });
 
+const NsTech3Mobile = dynamic(() => import("../components/mobile/nsTech3"), {
+  ssr: false,
+});
+
+const NsTech4Mobile = dynamic(() => import("../components/mobile/nsTech4"), {
+  ssr: false,
+});
+
 const DownloadTheAppTechMobile = dynamic(
   () => import("../components/mobile/downloadTheAppTech"),
   { ssr: false }
@@ -46,6 +54,8 @@ function Mobile() {
     <>
      <NsTechMobile/>
       <NsTech2Mobile/>
+      <NsTech3Mobile/>
+      <NsTech4Mobile/>
       <DownloadTheAppTechMobile/>
      
     </>

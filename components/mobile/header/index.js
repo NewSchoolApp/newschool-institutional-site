@@ -72,6 +72,11 @@ export default function HeaderComponent(_) {
             <StyledLink href="/midia" onClick={handleClick} to="/contact">
              New School na Mídia
             </StyledLink>
+                      </li>
+                      <li>
+          <StyledLink href="/newschool-tech" onClick={handleClick} to="/contact">
+             New School Tech
+            </StyledLink>
           </li>
           <li>
             <StyledLink href="/doar" onClick={handleClick} to="/contact">

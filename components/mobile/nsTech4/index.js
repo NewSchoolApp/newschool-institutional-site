@@ -11,14 +11,14 @@ import {
   Button,
 } from "./style";
 
-export default function NsTech2Mobile() {
+export default function NsTech4Mobile() {
   return (
     <Container>
      
       <Flex>
         
         <Card>
-          <Image style={{ marginLeft: "10%" }} src="gray/tech2mobile.png" />
+          <Image style={{ marginLeft: "10%" }} src="gray/tech4mobile.png" />
         </Card>
       </Flex>
 

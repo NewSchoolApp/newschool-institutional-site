@@ -11,7 +11,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 2%;
   @media (max-width: 1000px) {
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     
   }
 `;
@@ -38,7 +38,7 @@ export const Card = styled.div`
     flex-wrap: wrap;
     background: none;
     width: 100%;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
   }
 `;
 

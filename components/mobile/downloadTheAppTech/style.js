@@ -62,6 +62,7 @@ export const Column = styled.div`
     flex-direction:column;
     align-items: left;
     justify-content: center;
+    margin:4%;
 `;
 
 export const Text = styled.p `
@@ -75,7 +76,7 @@ export const Text = styled.p `
 
 export const Title = styled.p `
   font-family: Montserrat;
-  font-size: 76px;
+  font-size: 44px;
   line-height: 102px;
   font-weight: 700;
   margin-bottom: 1%;
